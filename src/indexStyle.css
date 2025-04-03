@@ -1,0 +1,518 @@
+@charset "UTF-8";
+/*
+mi-proyecto-parcel/
+│── src/
+│   ├── index.html
+│   ├── styles.css
+│   ├── index.js
+│── package.json
+*/
+/* Variables:*/
+/*------Página principal-------*/
+@font-face {
+  font-family: Montserrat;
+  src: url("/src/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+/*Index.html*/
+body {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Montserrat;
+  position: relative;
+}
+
+.labe_hamburguesa, #menustate {
+  display: none; /* Permite que el icono de hamburguesa no aparezca en la pantalla de escritorio */
+}
+
+.img_wrapper {
+  width: 6%;
+}
+
+#logoArteDulce {
+  width: 100%;
+  height: auto;
+}
+
+.background-nav {
+  width: 100%;
+  background-color: #97ac99;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #CAD8C3;
+  padding-left: 15px;
+}
+.nav-link:hover {
+  font-weight: bold;
+  background-color: #CAD8C3;
+  color: #97ac99;
+  padding: 5px;
+}
+.nav-link:hover > .nav-sublink { /*Despliega las categorias de la lista del nav*/
+  display: block;
+}
+
+.nav_bar { /*  ul del nav */
+  display: flex;
+  padding-top: 20px;
+  margin-bottom: 22px;
+  list-style: none;
+}
+.nav_bar li {
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+  background-color: #97ac99;
+  padding: 10px 15px;
+  display: block;
+}
+.nav_bar > li {
+  float: left;
+}
+
+nav > li {
+  float: none;
+}
+
+.nav_sublink {
+  display: none;
+  position: absolute;
+  min-width: 140px;
+  padding: 0px;
+  margin: 0px;
+}
+.nav_sublink li {
+  padding-left: 15px;
+  margin: 0px;
+}
+
+li:hover .nav_sublink {
+  display: block; /* Show the submenu when hovering over the parent <li> */
+}
+
+.nav-reserve {
+  text-decoration: none;
+  color: black;
+  background-color: #CAD8C3;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.nav-reserve:hover {
+  font-weight: bold;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  gap: 0px;
+}
+.grid .element {
+  height: 400px;
+  text-align: center;
+}
+.grid .element img {
+  width: 100%;
+}
+.grid .element .titulo_cell {
+  padding-top: 35%;
+}
+
+.cell {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  object-fit: cover;
+  height: 100%;
+}
+
+.row {
+  display: table-row;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+/*Section 1*/
+.valores_empresa {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 100px; /* Empuja los elementos hacia abajo*/
+}
+
+.definicion_valores {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 400px; /* Empuja los elementos hacia abajo*/
+}
+
+.value {
+  height: 400px;
+  text-align: center;
+}
+.value img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.description {
+  margin-top: 50px;
+}
+
+/*Section 2*/
+.products {
+  width: 100%;
+  height: auto;
+  background-image: url(Img/seamless-pattern-chrysanthemum-flowers-white-backdrop.jpg);
+  background-color: rgba(255, 255, 255, 0.6);
+  background-blend-mode: lighten;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.products img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.div_products {
+  text-align: center;
+}
+
+.collection_cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Cuatro columnas */
+  grid-auto-rows: minmax(90px, auto); /* Reduce la altura mínima de las filas */
+  gap: 10px; /* Reduce el espacio entre elementos */
+  justify-content: center;
+}
+
+.link_cards {
+  text-decoration: none;
+  color: black;
+}
+
+.cards { /*Figure*/
+  background-color: white;
+  position: relative;
+  height: auto;
+  border-radius: 10px;
+}
+
+figure.cards {
+  padding: 2px;
+  margin: 20px;
+  transition: margin 0.2s ease-in-out;
+}
+figure.cards:hover {
+  padding: 2px;
+  margin: 10px;
+}
+figure.cards img {
+  width: 100%;
+  height: auto;
+  max-height: 150px;
+  overflow: hidden;
+  object-fit: cover;
+  border-radius: 15px;
+}
+figure.cards h2 {
+  text-align: center;
+}
+figure.cards figcaption {
+  font-size: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.more_info { /* Botón más información */
+  background-color: #CAD8C3;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+footer {
+  background-color: #CAD8C3;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.footer_section {
+  display: flex;
+  margin-right: 100px;
+  margin-left: 100px;
+  justify-content: space-between;
+}
+.footer_section img { /* Logo Empresa transparente*/
+  width: 10%;
+  display: flex;
+  position: absolute;
+  bottom: 30px;
+  left: 200px;
+}
+
+.wrapper_footer {
+  display: flex;
+  margin-left: 100px;
+}
+.wrapper_footer ul li {
+  display: flex;
+}
+.wrapper_footer ul li a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #97ac99;
+}
+
+.ul_title_footer {
+  font-weight: bold;
+  color: #97ac99;
+  margin-bottom: 5px;
+  margin-right: 60px;
+}
+
+/*===================PAGE:cheesecake.html====================*/
+.cheesecake_title {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 50px;
+}
+
+.wrapper_section {
+  display: flex;
+}
+
+.header_page2 {
+  width: 5000px;
+  height: auto;
+  margin-left: 0;
+}
+.header_page2 img {
+  width: 100%;
+  height: auto;
+  margin-left: 0;
+}
+.header_page2 figcaption {
+  margin-top: 20px;
+}
+
+.cheesecake_disponibles {
+  margin-top: 50px;
+  border-top: black 1px solid;
+  border-bottom: black 1px solid;
+  margin-bottom: 50px;
+}
+
+.cheese_card {
+  display: flex;
+  margin-bottom: 50px;
+}
+.cheese_card img {
+  width: 30%;
+  height: auto;
+}
+
+.text {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cake {
+  margin-top: 5px;
+}
+
+.order_button {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.order_button:hover {
+  color: #97ac99;
+}
+
+/*------Tablet mode-------*/
+@media screen and (min-width: 767px) and (max-width: 1024px), screen and (min-device-width: 767px) and (max-device-width: 1024px) {
+  /*----Página principal----*/
+  .container {
+    width: 90%; /* Reducimos el ancho */
+    padding: 5px;
+  }
+  h1 {
+    font-size: 24px; /* Ajustamos el tamaño del título */
+  }
+  .background-nav {
+    display: flex;
+  }
+  .img_wrapper {
+    width: 100%;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav-wrapper {
+    justify-content: space-between;
+    width: 90%; /* Menos anchura entre elementos*/
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .products {
+    padding-top: 20px;
+  }
+  .grid .element {
+    height: 300px;
+    text-align: center;
+  }
+  .collection_cards {
+    grid-template-columns: repeat(2, 1fr); /* Cambiar de cuatro a dos columnas */
+  }
+  .footer_section {
+    display: flex;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-around;
+  }
+  .footer_section img { /* Logo Empresa transparente*/
+    width: 15%;
+    left: 100px;
+  }
+  .wrapper_footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  /*----Página: Cheese Cake y pasteles de frutas de temporada----*/
+  .wrapper_section {
+    width: 90%;
+    display: block;
+  }
+  .wrapper_section figure {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .explicacion_article {
+    margin-left: 38px;
+  }
+  .video {
+    margin-left: 38px;
+  }
+}
+/*------Phone mode-------*/
+@media screen and (min-width: 320px) and (max-width: 766px), screen and (min-device-width: 320px) and (max-device-width: 766px) {
+  /*----Página principal----*/
+  .container {
+    width: 80%; /* Reducimos el ancho */
+    padding: 5px;
+  }
+  h1 {
+    font-size: 24px; /* Ajustamos el tamaño del título */
+  }
+  .background-nav {
+    display: flex;
+  }
+  .img_wrapper {
+    width: 100%;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav-wrapper {
+    justify-content: space-between;
+    width: 90%; /* Menos anchura entre elementos*/
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* Cambiar de cuatro a una columnas */
+  }
+  .value {
+    height: 100%;
+  }
+  .definicion_valores {
+    grid-template-columns: repeat(1, 1fr); /* Cambiar de cuatro a una columnas */
+  }
+  .products {
+    padding-top: 20px;
+  }
+  .grid .element {
+    height: 300px;
+    text-align: center;
+  }
+  .collection_cards {
+    grid-template-columns: repeat(1, 1fr); /* Cambiar de cuatro a dos columnas */
+  }
+  .footer_section {
+    display: flex;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-around;
+  }
+  .footer_section img { /* Logo Empresa transparente*/
+    width: 15%;
+    left: 100px;
+  }
+  .wrapper_footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  /*----Página: Cheese Cake y pasteles de frutas de temporada----*/
+  .wrapper_section {
+    width: 90%;
+    display: block;
+  }
+  .wrapper_section figure {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .explicacion_article {
+    margin-left: 38px;
+  }
+  .video {
+    margin-left: 38px;
+  }
+}
+
+/*# sourceMappingURL=indexStyle.css.map */

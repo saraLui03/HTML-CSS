@@ -1,0 +1,831 @@
+/* Variables:*/
+$color-principal: #97ac99;
+$color-secundario: #CAD8C3;
+
+/*------Página principal-------*/
+
+
+@font-face {
+    font-family: Montserrat;
+    src: url('/src/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+
+/*Index.html*/
+body {
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Montserrat;
+    position: relative;
+
+}
+
+.labe_hamburguesa,
+#menustate {
+    display: none;
+    /* Permite que el icono de hamburguesa no aparezca en la pantalla de escritorio */
+}
+
+.img_wrapper {
+    width: 6%;
+}
+
+#logoArteDulce {
+    width: 100%;
+    height: auto;
+
+}
+
+
+.background-nav {
+    width: 100vw;
+    background-color: $color-principal;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+
+
+
+}
+
+.nav-link {
+    text-decoration: none;
+    color: $color-secundario;
+    padding-left: 15px;
+
+    &:hover {
+        font-weight: bold;
+        background-color: $color-secundario;
+        color: $color-principal;
+        padding: 5px;
+
+        >.nav-sublink {
+            /*Despliega las categorias de la lista del nav*/
+            display: block;
+        }
+    }
+
+}
+
+.nav_bar {
+    /*  ul del nav */
+    display: flex;
+    padding-top: 20px;
+    margin-bottom: 22px;
+    list-style: none;
+
+    li {
+        display: flex;
+        margin-right: 20px;
+        align-items: center;
+        background-color: $color-principal;
+        padding: 10px 15px;
+        display: block;
+    }
+
+    >li {
+        float: left;
+    }
+
+}
+
+nav>li {
+    float: none;
+}
+
+
+
+
+
+.nav_sublink {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    padding: 0px;
+    margin: 0px;
+
+    li {
+        padding-left: 15px;
+        margin: 0px;
+
+    }
+}
+
+li:hover .nav_sublink {
+    display: block;
+    /* Show the submenu when hovering over the parent <li> */
+}
+
+
+
+.nav-reserve {
+    text-decoration: none;
+    color: black;
+    background-color: $color-secundario;
+    border-radius: 10px;
+    padding: 5px;
+
+
+}
+
+.nav-reserve:hover {
+    font-weight: bold;
+}
+
+/* Grid */
+.grid {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    gap: 0px;
+
+    .element {
+        height: 400px;
+        text-align: center;
+
+        img {
+            width: 100%;
+        }
+
+        .titulo_cell {
+            padding-top: 35%;
+        }
+
+    }
+}
+
+
+
+.cell {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    object-fit: cover;
+    height: 100%;
+    transition: all ease-in-out 0.5s;
+}
+
+.row {
+    display: table-row;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+
+/*Section 1*/
+.valores_empresa {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 100px;
+    /* Empuja los elementos hacia abajo*/
+}
+
+.definicion_valores {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 400px;
+    /* Empuja los elementos hacia abajo*/
+
+}
+
+.value {
+    height: 400px;
+    text-align: center;
+
+    img {
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        object-fit: cover;
+        border-radius: 15px;
+    }
+}
+
+
+
+.description {
+    margin-top: 50px;
+}
+
+
+/*Section 2*/
+
+.products {
+    width: 100%;
+    height: auto;
+    background-image: url(Img/seamless-pattern-chrysanthemum-flowers-white-backdrop.jpg);
+    background-color: rgba(255, 255, 255, 0.6);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+
+
+    img {
+        max-width: 100%;
+        object-fit: cover;
+
+    }
+
+}
+
+.div_products {
+    text-align: center;
+}
+
+
+
+.collection_cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* Cuatro columnas */
+    grid-auto-rows: minmax(90px, auto);
+    /* Reduce la altura mínima de las filas */
+    gap: 10px;
+    /* Reduce el espacio entre elementos */
+
+    justify-content: center;
+}
+
+.link_cards {
+    text-decoration: none;
+    color: black;
+}
+
+.cards {
+    /*Figure*/
+    background-color: white;
+    position: relative;
+    height: auto;
+    border-radius: 10px;
+
+
+
+}
+
+figure {
+    &.cards {
+        padding: 2px;
+        margin: 20px;
+        transition: margin 0.2s ease-in-out;
+
+        &:hover {
+            padding: 2px;
+            margin: 10px;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            max-height: 150px;
+            overflow: hidden;
+            object-fit: cover;
+            border-radius: 15px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        figcaption {
+            font-size: 12px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+    }
+
+}
+
+
+
+.more_info {
+    /* Botón más información */
+    background-color: $color-secundario;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    margin-bottom: 20px;
+
+    border: none;
+    border-radius: 5px;
+
+    font-weight: bold;
+    color: white;
+
+}
+
+
+footer {
+    background-color: $color-secundario;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footer_section {
+    width: 100vw;
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+    justify-content: space-between;
+
+
+    img {
+        /* Logo Empresa transparente*/
+        width: 130px;
+        display: flex;
+        position: absolute;
+        margin-top: -65px;
+    }
+}
+
+
+
+
+
+.wrapper_footer {
+    display: flex;
+    margin-left: 100px;
+
+    ul {
+        li {
+            display: flex;
+
+            a {
+                font-size: 12px;
+                text-decoration: none;
+                color: #97ac99;
+            }
+        }
+    }
+
+}
+
+.ul_title_footer {
+    font-weight: bold;
+    color: $color-principal;
+    margin-bottom: 5px;
+    margin-right: 60px;
+}
+
+
+/*===================PAGE:cheesecake.html && PAEGE:cake_fruits.html====================*/
+
+
+.cheesecake_title {
+    text-align: center;
+    font-size: 35px;
+    padding-top: 50px;
+
+}
+
+
+.wrapper_section {
+    display: flex;
+}
+
+.header_page2 {
+    width: 50%;
+    height: auto;
+
+    margin-left: 0;
+
+    img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    figcaption {
+        margin-top: 20px;
+    }
+
+}
+
+.explicacion_article {
+    width: 50%;
+}
+
+
+
+
+
+.cheesecake_disponibles {
+    margin-top: 50px;
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+    margin-bottom: 50px;
+
+}
+
+.cheese_card {
+    display: flex;
+    margin-bottom: 50px;
+
+    img {
+        width: 30%;
+        height: auto;
+
+    }
+}
+
+
+.text {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cake {
+    margin-top: 5px;
+}
+
+.order_button {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.order_button:hover {
+    color: #97ac99;
+
+}
+
+
+
+/*------Tablet mode-------*/
+@media screen and (min-width: 820px) and (max-width: 1180px),
+//medidas ipadAir
+screen and (min-device-width: 820px) and (max-device-width: 1180px) {
+
+    /*----Página principal----*/
+    .container {
+        width: 90%;
+        /* Reducimos el ancho */
+        padding: 5px;
+    }
+
+
+    h1 {
+        font-size: 24px;
+        /* Ajustamos el tamaño del título */
+    }
+
+
+
+    .background-nav {
+        display: flex;
+    }
+
+    .nav-wrapper {
+        width: 50%;
+    }
+
+    .img_wrapper {
+        width: 100%;
+        margin: 40px;
+        margin-left: auto;
+        margin-right: auto;
+
+        img {
+            width: 100%;
+        }
+
+
+    }
+
+    .nav-wrapper {
+        justify-content: space-between;
+        width: 90%;
+        /* Menos anchura entre elementos*/
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    .explicacion_article {
+        width: 90%; //centra el texto descriptivo.
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    .cheese_card {
+        img {
+            width: 45%;
+            height: auto;
+
+        }
+
+        .text {
+            width: 50%;
+        }
+    }
+
+    .products {
+        padding-top: 20px;
+
+    }
+
+    .grid .element {
+        height: 300px;
+        text-align: center;
+    }
+
+    .collection_cards {
+        grid-template-columns: repeat(2, 1fr);
+        /* Cambiar de cuatro a dos columnas */
+
+        .cards {
+            margin: 20px;
+            padding: 10px;
+        }
+
+    }
+
+    .footer_section {
+        display: flex;
+        width: 80%;
+        height: auto;
+
+        margin-right: auto;
+        margin-left: auto;
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        justify-content: space-around;
+
+        img {
+            /* Logo Empresa transparente*/
+            width: 17%;
+            height: auto;
+            left: 46px;
+            bottom: 30px;
+        }
+
+    }
+
+
+
+    .wrapper_footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    /*----Página: Cheese Cake y pasteles de frutas de temporada----*/
+    .wrapper_section {
+        width: 90%;
+        display: block;
+
+
+        figure {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+    }
+
+
+    .explicacion_article {
+        margin-left: 38px;
+    }
+
+    .video {
+        margin-left: 38px;
+
+    }
+
+
+}
+
+.lista_bibliografia{
+    li{
+ 
+        word-break: break-all;
+        
+    }
+}
+
+
+/*------Phone mode-------*/
+@media screen and (max-width: 667px),
+screen and (max-device-width: 667px) {
+
+    /*----Página principal----*/
+    .container {
+        width: 100%;
+        /* Reducimos el ancho */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 250px;
+
+    }
+
+    h1 {
+        font-size: 24px;
+        /* Ajustamos el tamaño del título */
+    }
+
+
+    .background-nav {
+        display: flex;
+    }
+
+    .nav_bar {
+        display: block;
+    }
+
+
+    .img_wrapper {
+        width: 100%;
+        margin: 20px;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    }
+
+    .header_page2 {
+        width: 85%;
+
+        img {
+            margin: 0;
+        }
+
+    }
+
+    .explicacion_article {
+        width: 90%;
+
+
+    }
+
+    video {
+        width: 80%;
+        margin: 0;
+    }
+
+    .cheesecake_disponibles {
+        margin-left: 50px;
+        font-size: 15px;
+
+        .cheese_card {
+
+            display: block;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 80%;
+            }
+
+            .text {
+                width: 80%;
+                margin: 0;
+
+            }
+        }
+    }
+
+
+    .nav-wrapper {
+        justify-content: space-between;
+        width: 90%;
+        /* Menos anchura entre elementos*/
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* Cambiar de cuatro a una columnas */
+
+
+    }
+
+    .value {
+        height: 100%;
+    }
+
+    .definicion_valores {
+        grid-template-columns: repeat(1, 1fr);
+        /* Cambiar de cuatro a una columnas */
+
+
+    }
+
+    .products {
+        padding-top: 20px;
+
+    }
+
+    .grid .element {
+        height: 300px;
+        text-align: center;
+    }
+
+    .collection_cards {
+        grid-template-columns: repeat(1, 1fr);
+
+        /* Cambiar de cuatro a dos columnas */
+        .link_cards {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+    .footer_section {
+        display: block;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+
+        img {
+            /* Logo Empresa transparente*/
+            width: 30%;
+            left: 10px;
+
+        }
+
+    }
+
+
+
+    .wrapper_footer {
+        display: flex;
+        flex-wrap: wrap;
+  
+    }
+
+    /*----Página: Cheese Cake y pasteles de frutas de temporada----*/
+    .wrapper_section {
+        width: 90%;
+        display: block;
+
+
+        figure {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+    }
+
+
+    .explicacion_article {
+        margin-left: 38px;
+    }
+
+    .video {
+        margin-left: 38px;
+
+    }
+
+    /*----Página: Bibliografia----*/
+
+    #logoArteDulce{
+        width: 50%;
+    }
+  
+    .titulos_bibliografia{
+        margin-left: 40px;
+    }
+
+    .lista_bibliografia{
+        li{
+
+            word-break: break-all;
+            
+        }
+    }
+
+}
