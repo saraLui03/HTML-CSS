@@ -1,251 +1,423 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Pastelería 'ArteDulce' ofrece tartas con frutas de temporada realizadas de manera artesanalmente"
+    />
+    <meta
+      name="keywords"
+      content="pasteleria, japonesa, artedulce,postres, artesano, fruta de temporada, pasteles"
+    />
+    <link rel="stylesheet" href="/src/indexStyle.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="Img/Logo_ArteDulce_Transparent.svg" />
+    <title>Pasteles de frutas de temporada | Pastelería "ArteDulce"</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description"
-    content="Pastelería 'ArteDulce' ofrece tartas con frutas de temporada realizadas de manera artesanalmente">
-  <meta name="keywords" content="pasteleria, japonesa, artedulce,postres, artesano, fruta de temporada, pasteles">
-  <link rel="stylesheet" href="/src/indexStyle.scss">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
-  <link rel="icon" href="Img/Logo_ArteDulce_Transparent.svg">
-  <title> Pasteles de frutas de temporada | Pastelería "ArteDulce"</title>
-</head>
+  <body>
+    <!-- ENCABEZADO -->
+    <header>
+      <nav class="background-nav">
+        <div class="nav-wrapper">
+          <div class="img_wrapper">
+            <img
+              src="Img/Logo_ArteDulce_Transparent.svg"
+              alt="Logo_ArteDulce"
+              id="logoArteDulce"
+            />
+          </div>
 
-<body>
-  <!-- ENCABEZADO -->
-  <header>
-    <nav class="background-nav">
-      <div class="nav-wrapper">
-        <div class="img_wrapper">
-          <img src="Img/Logo_ArteDulce_Transparent.svg" alt="Logo_ArteDulce" id="logoArteDulce">
+          <ul class="nav_bar">
+            <li><a class="nav-link" href="index.html">Inicio</a></li>
+            <li>
+              <a class="nav-link" href="#">Pasteles</a>
+              <ul class="nav_sublink">
+                <li>
+                  <a class="nav-link" href="/src/cheesecake.html"
+                    >Tarta de queso japonés
+                  </a>
+                </li>
+                <li>
+                  <a class="nav-link" href="/src/cake_fruits.html"
+                    >Frutas de temporada</a
+                  >
+                </li>
+                <li><a class="nav-link" href="#">Sabores especiales</a></li>
+                <li><a class="nav-link" href="#">Postres</a></li>
+              </ul>
+            </li>
+
+            <li><a class="nav-link" href="#">Sobre nosotros</a></li>
+            <li><a class="nav-link" href="#">Contacto</a></li>
+            <li>
+              <a class="nav-reserve" href="/src/bibliografia.html"
+                >Bibliografia</a
+              >
+            </li>
+          </ul>
         </div>
+      </nav>
+    </header>
 
-
-        <ul class="nav_bar">
-          <li><a class="nav-link" href="index.html">Inicio</a></li>
-          <li>
-            <a class="nav-link" href="#">Pasteles</a>
-            <ul class="nav_sublink">
-              <li><a class="nav-link" href="/src/cheesecake.html">Tarta de queso japonés </a></li>
-              <li><a class="nav-link" href="/src/cake_fruits.html">Frutas de temporada</a></li>
-              <li><a class="nav-link" href="#">Sabores especiales</a></li>
-              <li><a class="nav-link" href="#">Postres</a></li>
-            </ul>
-          </li>
-
-          <li><a class="nav-link" href="#">Sobre nosotros</a></li>
-          <li><a class="nav-link" href="#">Contacto</a></li>
-          <li><a class="nav-reserve" href="/src/bibliografia.html">Bibliografia</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-
-  <main>
+    <main>
       <article class="container">
-        <h1 class="cheesecake_title"> Tartas de frutas de temporada </h1>
+        <h1 class="cheesecake_title">Tartas de frutas de temporada</h1>
         <div class="wrapper_section">
           <figure class="header_page2">
-            <img src="Img/Escritorio/Strawberry_cream.webp" alt="tarta_deFresas">
+            <picture>
+              <img
+                sizes="(max-width: 1400px) 100vw, 1400px"
+                srcset="
+              Img/fresasConNata_200.webp
+              Img/fresasConNata_373.webp
+              Img/fresasConNata_514.webp
+              Img/fresasConNata_645.webp
+              Img/fresasConNata_764.webp
+              Img/fresasConNata_877.webp
+              Img/fresasConNata_959.webp
+              Img/fresasConNata_1032.webp
+              Img/fresasConNata_1114.webp
+              Img/fresasConNata_1210.webp
+              Img/fresasConNata_1331.webp
+              "
+                src="Img/fresasConNata_200.webp"
+                alt="pastel_fresasConNata"
+              />
+            </picture>
             <figcaption>
-              <p>Las frutas de temporada en tartas y pasteles no solo aportan un sabor más intenso y fresco, sino que
-                también ofrecen beneficios nutricionales y económicos. Al estar en su punto óptimo de maduración,
-                conservan mejor sus vitaminas, minerales y antioxidantes, lo que ayuda a fortalecer el sistema
-                inmunológico y mejorar la digestión. Además, al ser más abundantes en ciertas épocas del año, su precio
-                es más accesible y su impacto ambiental es menor. Incorporarlas en postres como tartas y pasteles
-                potencia su dulzura natural, reduciendo la necesidad de azúcar añadido y ofreciendo opciones más
-                saludables y deliciosas.</p>
+              <p>
+                Las frutas de temporada en tartas y pasteles no solo aportan un
+                sabor más intenso y fresco, sino que también ofrecen beneficios
+                nutricionales y económicos. Al estar en su punto óptimo de
+                maduración, conservan mejor sus vitaminas, minerales y
+                antioxidantes, lo que ayuda a fortalecer el sistema inmunológico
+                y mejorar la digestión. Además, al ser más abundantes en ciertas
+                épocas del año, su precio es más accesible y su impacto
+                ambiental es menor. Incorporarlas en postres como tartas y
+                pasteles potencia su dulzura natural, reduciendo la necesidad de
+                azúcar añadido y ofreciendo opciones más saludables y
+                deliciosas.
+              </p>
             </figcaption>
           </figure>
           <p class="explicacion_article">
-            <b>Frutas de temporada en Tartas y Pasteles</b><br>
-            <br>
-            Consumir alimentos de temporada es, lo mires por donde lo mires, un modo de alimentación inteligente,
-            eficiente, y sobre todo rico y saludable. <br>
-            <br>
-            En el caso consumir frutas de temporada encontramos evidentes ventajas: <br>
-            <br>
-            Se cultivan de forma natural con todos los beneficios que eso conlleva.
-            Se consumen con todas sus propiedades intactas, y en las mejores condiciones, pues ha sido recolectado en el
-            momento óptimo de su maduración.
-            Resultan mucho más económicas, y eso nos permite ahorrar en la cesta de la compra. Que ya sabemos que nunca
-            viene mal.
-
+            <b>Frutas de temporada en Tartas y Pasteles</b><br />
+            <br />
+            Consumir alimentos de temporada es, lo mires por donde lo mires, un
+            modo de alimentación inteligente, eficiente, y sobre todo rico y
+            saludable. <br />
+            <br />
+            En el caso consumir frutas de temporada encontramos evidentes
+            ventajas: <br />
+            <br />
+            Se cultivan de forma natural con todos los beneficios que eso
+            conlleva. Se consumen con todas sus propiedades intactas, y en las
+            mejores condiciones, pues ha sido recolectado en el momento óptimo
+            de su maduración. Resultan mucho más económicas, y eso nos permite
+            ahorrar en la cesta de la compra. Que ya sabemos que nunca viene
+            mal.
           </p>
         </div>
         <video width="640" height="360" class="video" controls>
-          <source src="/src/Img/videoUntarCream.mp4" type="video/mp4">
-          <source src="/src/Img/videoUntarCream.mp4" type="video/webm">
+          <source src="/src/Img/videoUntarCream.mp4" type="video/mp4" />
+          <source src="/src/Img/videoUntarCream.mp4" type="video/webm" />
         </video>
         <div class="cheesecake_disponibles">
-          <h2> Productos disponibles ( 2 disponibles )</h2>
+          <h2>Productos disponibles ( 2 disponibles )</h2>
           <div class="cheesecake_cards">
-
             <div class="cheese_card">
-              <img src="Img/Escritorio/pastelitoMango_357*238.webp" alt="pastel_mangoynata">
+              <picture>
+                <img
+                  sizes="(max-width: 1400px) 100vw, 1400px"
+                  srcset="
+                    Img/mango_nata_200.webp   200w,
+                    Img/mango_nata_373.webp   373w,
+                    Img/mango_nata_514.webp   514w,
+                    Img/mango_nata_645.webp   645w,
+                    Img/mango_nata_764.webp   764w,
+                    Img/mango_nata_877.webp   877w,
+                    Img/mango_nata_959.webp   959w,
+                    Img/mango_nata_1032.webp 1032w,
+                    Img/mango_nata_1114.webp 1114w,
+                    Img/mango_nata_1210.webp 1210w,
+                    Img/mango_nata_1331.webp 1331w
+                  "
+                  src="Img/mango_nata_200.webp"
+                  alt="mango_nata"
+                />
+              </picture>
               <div class="text">
-                <h3> Tarta de Mango. </h3>
+                <h3>Tarta de Mango.</h3>
                 <p>
-                  Con una base esponjosa, crema batida y trozos de mango jugoso, este postre es ideal para los amantes
-                  de los sabores tropicales. Hecha con ingredientes de alta calidad y un toque artesanal, cada porción
-                  es un placer irresistible.
+                  Con una base esponjosa, crema batida y trozos de mango jugoso,
+                  este postre es ideal para los amantes de los sabores
+                  tropicales. Hecha con ingredientes de alta calidad y un toque
+                  artesanal, cada porción es un placer irresistible.
                 </p>
 
-                <span class="price"> 50,00€ </span><br>
+                <span class="price"> 50,00€ </span><br />
 
-                <button class="more_info cake order_button">Realizar pedido</button>
-
+                <button class="more_info cake order_button">
+                  Realizar pedido
+                </button>
               </div>
-
             </div>
             <div class="cheese_card">
-              <img src="Img/Escritorio/Strawberry_cream_357*238.webp" alt="cheeseCake_frutosRojos">
+              <picture>
+                <img
+                  sizes="(max-width: 1400px) 100vw, 1400px"
+                  srcset="
+                Img/fresa_nata_200.webp
+                Img/fresa_nata_373.webp
+                Img/fresa_nata_514.webp
+                Img/fresa_nata_645.webp
+                Img/fresa_nata_764.webp
+                Img/fresa_nata_877.webp
+                Img/fresa_nata_959.webp
+                Img/fresa_nata_1032.webp
+                Img/fresa_nata_1114.webp
+                Img/fresa_nata_1210.webp
+                Img/fresa_nata_1331.webp
+                Img/fresa_nata.webp
+                "
+                  src="Img/fresa_nata_200.webp"
+                  alt="fresa_nata"
+                />
+              </picture>
               <div class="text">
-                <h3> Tarta de Nata con Fresas</h3>
+                <h3>Tarta de Nata con Fresas</h3>
                 <p>
-                  Suave bizcocho, crema batida y fresas frescas se combinan a la perfección para ofrecerte un sabor
-                  dulce, ligero y refrescante. Preparada con ingredientes de la mejor calidad, es ideal para cualquier
-                  ocasión especial o simplemente para darte un capricho.
+                  Suave bizcocho, crema batida y fresas frescas se combinan a la
+                  perfección para ofrecerte un sabor dulce, ligero y
+                  refrescante. Preparada con ingredientes de la mejor calidad,
+                  es ideal para cualquier ocasión especial o simplemente para
+                  darte un capricho.
                 </p>
 
-                <span class="price">45,00€ </span><br>
+                <span class="price">45,00€ </span><br />
 
-                <button class="more_info cake order_button">Realizar pedido</button>
-
+                <button class="more_info cake order_button">
+                  Realizar pedido
+                </button>
               </div>
             </div>
-
           </div>
         </div>
       </article>
-    <section>
-      <div class="products">
-        <!-- <img src="Img/seamless-pattern-chrysanthemum-flowers-white-backdrop.jpg" alt="background"> -->
-        <div class="container">
-          <div class="div_products">
-            <h1> Nuestros productos</h1>
-            <p>Descubre nuestros increíbles postres artesanales en Arte Dulce. Elaborados con ingredientes naturales y
-              bajos en azúcar, cada creación es un equilibrio perfecto entre tradición y bienestar.</p>
+      <section>
+        <div class="products">
+          <!-- <img src="Img/seamless-pattern-chrysanthemum-flowers-white-backdrop.jpg" alt="background"> -->
+          <div class="container">
+            <div class="div_products">
+              <h1>Nuestros productos</h1>
+              <p>
+                Descubre nuestros increíbles postres artesanales en Arte Dulce.
+                Elaborados con ingredientes naturales y bajos en azúcar, cada
+                creación es un equilibrio perfecto entre tradición y bienestar.
+              </p>
 
               <div class="collection_cards">
+                <div class="card_background">
+                  <!--card 1-->
+                  <a class="link_cards" href="cheesecake.html"
+                    ><!--Link 1: Cheese Cake-->
+                    <figure class="cards">
+                      <img
+                        src="Img/Escritorio/cheeseCake_japanese.webp"
+                        alt="cheeseCake_japanese"
+                        width="200"
+                        height="75"
+                      />
 
-                <div class="card_background"> <!--card 1-->
-                  <a class="link_cards" href="cheesecake.html"><!--Link 1: Cheese Cake-->
-                    <figure class="cards">
-                      <img src="Img/Escritorio/cheeseCake_japanese.webp" alt="cheeseCake_japanese" width="200" height="75">
-                      <h2> Tarta de queso japonés </h2>
+                      <h2>Tarta de queso japonés</h2>
                       <figcaption>
-                        Tartas de queso japonesas caseras, utilizando solo ingredientes 100% naturales. Nuestra receta
-                        artesanal,
-                        inspirada en la tradición japonesa, es un postre ligero, esponjoso y delicadamente cremoso.
+                        Tartas de queso japonesas caseras, utilizando solo
+                        ingredientes 100% naturales. Nuestra receta artesanal,
+                        inspirada en la tradición japonesa, es un postre ligero,
+                        esponjoso y delicadamente cremoso.
                       </figcaption>
                     </figure>
                     <div class="card-bottom">
-                      <div class="more_info"> Más información</div>
+                      <div class="more_info">Más información</div>
                     </div>
-                    
                   </a>
                 </div>
-  
-                <div class="card_background"><!--card 2-->
-                  <a class="link_cards" href="cake_fruits.html"><!--Link 2: Cheese Cake-->
+
+                <div class="card_background">
+                  <!--card 2-->
+                  <a class="link_cards" href="cake_fruits.html"
+                    ><!--Link 2: Cheese Cake-->
                     <figure class="cards">
-                      <img src="Img/Escritorio/pastel_fresasNata.webp" alt="pastel_fresasConNata" width="200" height="75">
-                      <h2> Pasteles frutas de temporada</h2>
+                      <picture>
+                        <img
+                          sizes="(max-width: 1400px) 100vw, 1400px"
+                          width="200"
+                          height="75"
+                          srcset="
+                            Img/fresasConNata_200.webp   200w,
+                            Img/fresasConNata_373.webp   373w,
+                            Img/fresasConNata_514.webp   514w,
+                            Img/fresasConNata_645.webp   645w,
+                            Img/fresasConNata_764.webp   764w,
+                            Img/fresasConNata_877.webp   877w,
+                            Img/fresasConNata_959.webp   959w,
+                            Img/fresasConNata_1032.webp 1032w,
+                            Img/fresasConNata_1114.webp 1114w,
+                            Img/fresasConNata_1210.webp 1210w,
+                            Img/fresasConNata_1331.webp 1331w
+                          "
+                          src="Img/fresasConNata_200.webp"
+                          alt="pastel_fresasConNata"
+                        />
+                      </picture>
+                      <h2>Pasteles frutas de temporada</h2>
                       <figcaption>
-                        Seleccionando cuidadosamente las mejores frutas en su punto óptimo de maduración.
-                        Cada tarta es una combinación perfecta de sabores auténticos y texturas irresistibles.
+                        Seleccionando cuidadosamente las mejores frutas en su
+                        punto óptimo de maduración. Cada tarta es una
+                        combinación perfecta de sabores auténticos y texturas
+                        irresistibles.
                       </figcaption>
                     </figure>
                     <div class="card-bottom">
-                      <div class="more_info"> Más información</div>
+                      <div class="more_info">Más información</div>
                     </div>
                   </a>
                 </div>
-  
-                <div class="card_background"><!--card 3-->
-                  <a class="link_cards" href="#"><!--Link 3: N/A-->
+
+                <div class="card_background">
+                  <!--card 3-->
+                  <a class="link_cards" href="#"
+                    ><!--Link 3: N/A-->
                     <figure class="cards">
-                      <img src="Img/Escritorio/oreo_cake.webp" alt="pastel_cookies">
-                      <h2> Pasteles especiales</h2>
+                      <picture>
+                        <img
+                          sizes="(max-width: 1400px) 100vw, 1400px"
+                          srcset="
+                            Img/coockie_200.webp   200w,
+                            Img/coockie_373.webp   373w,
+                            Img/coockie_514.webp   514w,
+                            Img/coockie_645.webp   645w,
+                            Img/coockie_764.webp   764w,
+                            Img/coockie_877.webp   877w,
+                            Img/coockie_959.webp   959w,
+                            Img/coockie_1032.webp 1032w,
+                            Img/coockie_1114.webp 1114w,
+                            Img/coockie_1210.webp 1210w,
+                            Img/coockie_1331.webp 1331w
+                          "
+                          src="Img/coockie_200.webp"
+                          alt="oreo_cake"
+                        />
+                      </picture>
+                      <h2>Pasteles especiales</h2>
                       <figcaption>
-                        Nuestras tartas fusionan texturas suaves y crujientes, logrando un equilibrio entre dulzura y
-                        sabor.
-                        Perfectas para los amantes de los postres originales y para quienes buscan una experiencia
-                        diferente en cada bocado.
+                        Nuestras tartas fusionan texturas suaves y crujientes,
+                        logrando un equilibrio entre dulzura y sabor. Perfectas
+                        para los amantes de los postres originales y para
+                        quienes buscan una experiencia diferente en cada bocado.
                       </figcaption>
                     </figure>
                     <div class="card-bottom">
-                      <div class="more_info"> Más información</div>
+                      <div class="more_info">Más información</div>
                     </div>
                   </a>
                 </div>
-  
-  
-                <div class="card_background"><!--card 4-->
-                  <a class="link_cards" href="#"><!--Link 4:  N/A-->
+
+                <div class="card_background">
+                  <!--card 4-->
+                  <a class="link_cards" href="#"
+                    ><!--Link 4:  N/A-->
                     <figure class="cards">
-                      <img src="Img/Escritorio/copa_mango.webp" alt="mangoCup" width="200" height="75">
-                      <h2> Postres para<br> celebraciones</h2>
+                      <picture>
+                        <img
+                          sizes="(max-width: 1400px) 100vw, 1400px"
+                          width="200"
+                          height="75"
+                          srcset="
+                            Img/mangoCup_200.webp   200w,
+                            Img/mangoCup_373.webp   373w,
+                            Img/mangoCup_514.webp   514w,
+                            Img/mangoCup_645.webp   645w,
+                            Img/mangoCup_764.webp   764w,
+                            Img/mangoCup_877.webp   877w,
+                            Img/mangoCup_959.webp   959w,
+                            Img/mangoCup_1032.webp 1032w,
+                            Img/mangoCup_1114.webp 1114w,
+                            Img/mangoCup_1210.webp 1210w,
+                            Img/mangoCup_1331.webp 1331w
+                          "
+                          src="Img/mangoCup_200.webp"
+                          alt="mangoCup"
+                        />
+                      </picture>
+                      <h2>
+                        Postres para<br />
+                        celebraciones
+                      </h2>
                       <figcaption>
-                        Delicados postres individuales para eventos exclusivos, cada creación está elaborada con
-                        ingredientes de primera calidad y decorada con el máximo detalle.
+                        Delicados postres individuales para eventos exclusivos,
+                        cada creación está elaborada con ingredientes de primera
+                        calidad y decorada con el máximo detalle.
                       </figcaption>
                     </figure>
                     <div class="card-bottom">
-                      <div class="more_info"> Más información</div>
+                      <div class="more_info">Más información</div>
                     </div>
                   </a>
                 </div>
-  
               </div>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <!-- <img src="Img/Logo_ArteDulce.jpg" alt="Logo_ArteDulce_Transparent"> -->
-    <nav class="footer_section">
-      <img src="Img/Logo_ArteDulce_Transparent.svg" alt="Logo_ArteDulce">
-     
-      <div class="wrapper_footer">
-        <ul><!--Categoría 1-->
-          <li class="ul_title_footer">Atención al cliente</li>
-          <li><a href="#">Contáctanos</a></li>
-          <li><a href="#">Cómo reservar</a></li>
-        </ul>
+      </section>
+    </main>
+    <footer>
+      <!-- <img src="Img/Logo_ArteDulce.jpg" alt="Logo_ArteDulce_Transparent"> -->
+      <nav class="footer_section">
+        <img src="Img/Logo_ArteDulce_Transparent.svg" alt="Logo_ArteDulce" />
 
-        <ul><!--Categoría 2-->
-          <li class="ul_title_footer">Redes sociales</li>
-          <li><a href="#">Instagram</a></li>
-        </ul>
+        <div class="wrapper_footer">
+          <ul>
+            <!--Categoría 1-->
+            <li class="ul_title_footer">Atención al cliente</li>
+            <li><a href="#">Contáctanos</a></li>
+            <li><a href="#">Cómo reservar</a></li>
+          </ul>
 
-        <ul><!--Categoría 3-->
-          <li class="ul_title_footer">Categorías</li>
-          <li><a href="/src/cheesecake.html">CheeseCake</a></li>
-          <li><a href="#">Pasteles de temporada</a></li>
-          <li><a href="#">Pasteles de sabores especiales</a></li>
-          <li><a href="#">Postres</a></li>
-        </ul>
+          <ul>
+            <!--Categoría 2-->
+            <li class="ul_title_footer">Redes sociales</li>
+            <li><a href="#">Instagram</a></li>
+          </ul>
 
-        <ul><!--Categoría 4-->
-          <li class="ul_title_footer">Politica de datos</li>
-          <li><a href="#">Politica de privacidad</a></li>
-          <li><a href="#">Terminos del servicio</a></li>
-          <li><a href="#">Gestiones del cookies</a></li>
-        </ul>
+          <ul>
+            <!--Categoría 3-->
+            <li class="ul_title_footer">Categorías</li>
+            <li><a href="/src/cheesecake.html">CheeseCake</a></li>
+            <li><a href="#">Pasteles de temporada</a></li>
+            <li><a href="#">Pasteles de sabores especiales</a></li>
+            <li><a href="#">Postres</a></li>
+          </ul>
 
-      </div>
-    </nav>
-  </footer>
+          <ul>
+            <!--Categoría 4-->
+            <li class="ul_title_footer">Politica de datos</li>
+            <li><a href="#">Politica de privacidad</a></li>
+            <li><a href="#">Terminos del servicio</a></li>
+            <li><a href="#">Gestiones del cookies</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
 
-  <script src="index.js" type="module"></script>
-</body>
-
+    <script src="index.js" type="module"></script>
+  </body>
 </html>

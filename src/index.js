@@ -1,6 +1,3 @@
-import {changeRandomImage} from "../module";
+import { changeRandomImage } from "../module";
 
 changeRandomImage();
-
-
-
