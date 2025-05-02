@@ -1,4 +1,4 @@
-import mangoImg from "url:./src/Img/Escritorio/pastelito.webp"
+import mangoImg from "url:./src/Img/mango_nata.jpg"
 
 import LogoImg from "url:./src/Img/Escritorio/logo_ArteDulce.webp"
 import FresaImg from "url:./src/Img/Escritorio/choclolateBlancoConFresas.webp"
