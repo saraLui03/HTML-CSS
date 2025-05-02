@@ -1,14 +1,15 @@
+import mangoImg from "url:./src/Img/Escritorio/pastelito.webp"
 
-import mangoImg from "url:./src/Img/mango_nata.jpg"
+import LogoImg from "url:./src/Img/Escritorio/logo_ArteDulce.webp"
+import FresaImg from "url:./src/Img/Escritorio/choclolateBlancoConFresas.webp"
 
-import LogoImg from "url:./src/Img/Logo_ArteDulce.jpg"
-import FresaImg from "url:./src/Img/fresa_chocblanco.jpg"
 
 const images = [
     
     mangoImg,
     LogoImg, 
     FresaImg];
+    
 const gridCells = document.querySelectorAll(".element img");
 
 function changeRandomImage() {
@@ -30,3 +31,4 @@ function changeRandomImage() {
 // Alternar imágenes cada 2 segundos
 setInterval(changeRandomImage, 2000);
 export{changeRandomImage}
+

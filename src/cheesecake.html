@@ -12,8 +12,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-  <link rel="icon" href="Img/__Logo_ArteDulce_Transparent.png">
-  <title> CheeseCake | Pastelería "ArteDulce" </title>
+    <link rel="icon" href="Img/Logo_ArteDulce_Transparent.svg">
+    <title> CheeseCake | Pastelería "ArteDulce" </title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
     <nav class="background-nav">
       <div class="nav-wrapper">
         <div class="img_wrapper">
-          <img src="Img/Logo_ArteDulce_Transparent.png" alt="Logo_ArteDulce" id="logoArteDulce" width="200" height="75">
+          <img src="Img/Logo_ArteDulce_Transparent.svg" alt="Logo_ArteDulce" id="logoArteDulce">
         </div>
 
 
@@ -53,7 +53,24 @@
         <h1 class="cheesecake_title"> Tartas de queso estilo japonés </h1>
         <div class="wrapper_section">
           <figure class="header_page2">
-            <img src="Img/73-scaled.webp" alt="cabecera">
+            <picture>
+              <img sizes="(max-width: 1400px) 100vw, 1400px"
+              srcset="
+              Img/73-scaled_200.webp 200w,
+              Img/73-scaled_373.webp 373w,
+              Img/73-scaled_514.webp 514w,
+              Img/73-scaled_645.webp 645w,
+              Img/73-scaled_764.webp 764w,
+              Img/73-scaled_877.webp 877w,
+              Img/73-scaled_959.webp 959w,
+              Img/73-scaled_1032.webp 1032w,
+              Img/73-scaled_1114.webp 1114w,
+              Img/73-scaled_1210.webp 1210w,
+              Img/73-scaled_1331.webp 1331w,
+              Img/73-scaled_1400.webp 1400w
+              " src="Img/73-scaled_200.webp"alt="Cutted_CheeseCake_japanese">
+          </picture>
+          
             <figcaption>
               <p>La tarta de queso japonesa (Japanese cheesecake o soufflé cheesecake) es un postre ligero y esponjoso
                 que
@@ -90,8 +107,8 @@
           </p>
         </div>
         <video width="640" height="360" class="video" controls>
-          <source src="/src/Img/4122397-uhd_3840_2160_24fps.mp4" type="video/mp4">
-          <source src="/src/Img/4122397-uhd_3840_2160_24fps.mp4" type="video/webm">
+          <source src="/src/Img/videoBatirHuevos.mp4" type="video/mp4">
+          <source src="/src/Img/videoBatirHuevos.mp4" type="video/webm">
         </video>
 
         <div class="cheesecake_disponibles">
@@ -99,7 +116,7 @@
           <div class="cheesecake_cards">
 
             <div class="cheese_card">
-              <img src="Img/-CPAAZSXCAVFNXJVFUWVSE6AUUE.avif" alt="cheeseCake_japanese">
+              <img src="Img/Escritorio/japanese_cheesecake_357*235.webp" alt="cheeseCake_japanese">
               <div class="text">
                 <h3> Cheese Cake japonés</h3>
                 <p>
@@ -116,7 +133,7 @@
 
             </div>
             <div class="cheese_card">
-              <img src="Img/tartaqueso_frutosrojos.jpg" alt="cheeseCake_frutosRojos">
+              <img src="Img/Escritorio/cheeseCake_WildFruits_375*235.webp" alt="cheeseCake_frutosRojos">
               <div class="text">
                 <h3> Cheese Cake de frutos rojos</h3>
                 <p>
@@ -143,57 +160,78 @@
             <p>Descubre nuestros increíbles postres artesanales en Arte Dulce. Elaborados con ingredientes naturales y
               bajos en azúcar, cada creación es un equilibrio perfecto entre tradición y bienestar.</p>
 
-            <div class="collection_cards">
-              <a class="link_cards" href="cheesecake.html"><!--Link 1: Cheese Cake-->
-                <figure class="cards">
-                  <img src="Img/-CPAAZSXCAVFNXJVFUWVSE6AUUE.avif" alt="cheeseCake_japanese">
-                  <h2> Tarta de queso japonés </h2>
-                  <figcaption>
-                    Tartas de queso japonesas caseras, utilizando solo ingredientes 100% naturales. Nuestra receta
-                    artesanal,
-                    inspirada en la tradición japonesa, es un postre ligero, esponjoso y delicadamente cremoso.
-                  </figcaption>
-                </figure>
-                <span class="more_info"> Más información</span>
-              </a>
+              <div class="collection_cards">
 
-              <a class="link_cards" href="cake_fruits.html"><!--Link 2: Tarta de fresas con nata-->
-                <figure class="cards">
-                  <img src="Img/fresa_nata.jpeg" alt="pastel_fresasConNata">
-                  <h2> Pasteles frutas de temporada</h2>
-                  <figcaption>
-                    Seleccionando cuidadosamente las mejores frutas en su punto óptimo de maduración.
-                    Cada tarta es una combinación perfecta de sabores auténticos y texturas irresistibles.
-                  </figcaption>
-                </figure>
-                <span class="more_info"> Más información</span>
-              </a>
-
-              <a class="link_cards" href="#"><!--Link 3: N/A-->
-                <figure class="cards">
-                  <img src="Img/coockie.jpg" alt="pastel_cookies">
-                  <h2> Pasteles de sabores especiales</h2>
-                  <figcaption>
-                    Nuestras tartas fusionan texturas suaves y crujientes, logrando un equilibrio entre dulzura y sabor.
-                    Perfectas para los amantes de los postres originales y para quienes buscan una experiencia diferente
-                    en cada bocado.
-                  </figcaption>
-                </figure>
-                <span class="more_info"> Más información</span>
-              </a>
-
-              <a class="link_cards" href="#"><!--Link 4:  N/A-->
-                <figure class="cards">
-                  <img src="Img/mangoCup.jpg" alt="mangoCup">
-                  <h2> Postres para celebraciones</h2>
-                  <figcaption>
-                    Delicados postres individuales para eventos exclusivos, cada creación está elaborada con
-                    ingredientes de primera calidad y decorada con el máximo detalle.
-                  </figcaption>
-                </figure>
-                <span class="more_info"> Más información</span>
-              </a>
-            </div>
+                <div class="card_background"> <!--card 1-->
+                  <a class="link_cards" href="cheesecake.html"><!--Link 1: Cheese Cake-->
+                    <figure class="cards">
+                      <img src="Img/Escritorio/cheeseCake_japanese.webp" alt="cheeseCake_japanese" width="200" height="75">
+                      <h2> Tarta de queso japonés </h2>
+                      <figcaption>
+                        Tartas de queso japonesas caseras, utilizando solo ingredientes 100% naturales. Nuestra receta
+                        artesanal,
+                        inspirada en la tradición japonesa, es un postre ligero, esponjoso y delicadamente cremoso.
+                      </figcaption>
+                    </figure>
+                    <div class="card-bottom">
+                      <div class="more_info"> Más información</div>
+                    </div>
+                    
+                  </a>
+                </div>
+  
+                <div class="card_background"><!--card 2-->
+                  <a class="link_cards" href="cake_fruits.html"><!--Link 2: Cheese Cake-->
+                    <figure class="cards">
+                      <img src="Img/Escritorio/pastel_fresasNata.webp" alt="pastel_fresasConNata" width="200" height="75">
+                      <h2> Pasteles frutas de temporada</h2>
+                      <figcaption>
+                        Seleccionando cuidadosamente las mejores frutas en su punto óptimo de maduración.
+                        Cada tarta es una combinación perfecta de sabores auténticos y texturas irresistibles.
+                      </figcaption>
+                    </figure>
+                    <div class="card-bottom">
+                      <div class="more_info"> Más información</div>
+                    </div>
+                  </a>
+                </div>
+  
+                <div class="card_background"><!--card 3-->
+                  <a class="link_cards" href="#"><!--Link 3: N/A-->
+                    <figure class="cards">
+                      <img src="Img/Escritorio/oreo_cake.webp" alt="pastel_cookies">
+                      <h2> Pasteles especiales</h2>
+                      <figcaption>
+                        Nuestras tartas fusionan texturas suaves y crujientes, logrando un equilibrio entre dulzura y
+                        sabor.
+                        Perfectas para los amantes de los postres originales y para quienes buscan una experiencia
+                        diferente en cada bocado.
+                      </figcaption>
+                    </figure>
+                    <div class="card-bottom">
+                      <div class="more_info"> Más información</div>
+                    </div>
+                  </a>
+                </div>
+  
+  
+                <div class="card_background"><!--card 4-->
+                  <a class="link_cards" href="#"><!--Link 4:  N/A-->
+                    <figure class="cards">
+                      <img src="Img/Escritorio/copa_mango.webp" alt="mangoCup" width="200" height="75">
+                      <h2> Postres para<br> celebraciones</h2>
+                      <figcaption>
+                        Delicados postres individuales para eventos exclusivos, cada creación está elaborada con
+                        ingredientes de primera calidad y decorada con el máximo detalle.
+                      </figcaption>
+                    </figure>
+                    <div class="card-bottom">
+                      <div class="more_info"> Más información</div>
+                    </div>
+                  </a>
+                </div>
+  
+              </div>
           </div>
         </div>
       </div>
@@ -201,7 +239,7 @@
   </main>
   <footer>
     <nav class="footer_section">
-      <img src="Img/Logo_ArteDulce_Transparent.png" alt="Logo_ArteDulce">
+      <img src="Img/Logo_ArteDulce_Transparent.svg" alt="Logo_ArteDulce">
       <div class="Espacio">
       </div>
       <div class="wrapper_footer">

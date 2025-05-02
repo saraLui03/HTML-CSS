@@ -1,0 +1,265 @@
+#/bin/bash
+ 
+# npm install -g sharp-cli
+
+sharp -i "./mango.jpeg" -o "./mango_200.webp" --optimise resize 200
+sharp -i "./mango.jpeg" -o "./mango_373.webp" --optimise resize 373
+sharp -i "./mango.jpeg" -o "./mango_514.webp" --optimise resize 514
+sharp -i "./mango.jpeg" -o "./mango_645.webp" --optimise resize 645
+sharp -i "./mango.jpeg" -o "./mango_764.webp" --optimise resize 764
+sharp -i "./mango.jpeg" -o "./mango_877.webp" --optimise resize 877
+sharp -i "./mango.jpeg" -o "./mango_959.webp" --optimise resize 959
+sharp -i "./mango.jpeg" -o "./mango_1032.webp" --optimise resize 1032
+sharp -i "./mango.jpeg" -o "./mango_1114.webp" --optimise resize 1114
+sharp -i "./mango.jpeg" -o "./mango_1210.webp" --optimise resize 1210
+sharp -i "./mango.jpeg" -o "./mango_1331.webp" --optimise resize 1331
+sharp -i "./mango.jpeg" -o "./mango_1400.webp" --optimise resize 1400
+
+
+
+sharp -i "./:::various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./:::various-types-sugar-brown-sugar-white-concrete-top-view_200.webp" --optimise resize 200
+sharp -i "./:::various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./:::various-types-sugar-brown-sugar-white-concrete-top-view_373.webp" --optimise resize 373
+sharp -i "./:::various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./:::various-types-sugar-brown-sugar-white-concrete-top-view_514.webp" --optimise resize 514
+sharp -i "./:::various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./:::various-types-sugar-brown-sugar-white-concrete-top-view_645.webp" --optimise resize 645
+sharp -i "./:::various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./:::various-types-sugar-brown-sugar-white-concrete-top-view_764.webp" --optimise resize 764
+sharp -i "./:::various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./:::various-types-sugar-brown-sugar-white-concrete-top-view_877.webp" --optimise resize 877
+sharp -i "./:::various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./:::various-types-sugar-brown-sugar-white-concrete-top-view_959.webp" --optimise resize 959
+sharp -i "./:::various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./:::various-types-sugar-brown-sugar-white-concrete-top-view_1032.webp" --optimise resize 1032
+sharp -i "./:::various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./:::various-types-sugar-brown-sugar-white-concrete-top-view_1114.webp" --optimise resize 1114
+sharp -i "./:::various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./:::various-types-sugar-brown-sugar-white-concrete-top-view_1210.webp" --optimise resize 1210
+sharp -i "./:::various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./:::various-types-sugar-brown-sugar-white-concrete-top-view_1331.webp" --optimise resize 1331
+sharp -i "./:::various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./:::various-types-sugar-brown-sugar-white-concrete-top-view_1400.webp" --optimise resize 1400
+
+sharp -i "./73-scaled.webp" -o "./73-scaled_200.webp" --optimise resize 200
+sharp -i "./73-scaled.webp" -o "./73-scaled_373.webp" --optimise resize 373
+sharp -i "./73-scaled.webp" -o "./73-scaled_514.webp" --optimise resize 514
+sharp -i "./73-scaled.webp" -o "./73-scaled_645.webp" --optimise resize 645
+sharp -i "./73-scaled.webp" -o "./73-scaled_764.webp" --optimise resize 764
+sharp -i "./73-scaled.webp" -o "./73-scaled_877.webp" --optimise resize 877
+sharp -i "./73-scaled.webp" -o "./73-scaled_959.webp" --optimise resize 959
+sharp -i "./73-scaled.webp" -o "./73-scaled_1032.webp" --optimise resize 1032
+sharp -i "./73-scaled.webp" -o "./73-scaled_1114.webp" --optimise resize 1114
+sharp -i "./73-scaled.webp" -o "./73-scaled_1210.webp" --optimise resize 1210
+sharp -i "./73-scaled.webp" -o "./73-scaled_1331.webp" --optimise resize 1331
+sharp -i "./73-scaled.webp" -o "./73-scaled_1400.webp" --optimise resize 1400
+
+sharp -i "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D.jpg" -o "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D_200.webp" --optimise resize 200
+sharp -i "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D.jpg" -o "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D_373.webp" --optimise resize 373
+sharp -i "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D.jpg" -o "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D_514.webp" --optimise resize 514
+sharp -i "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D.jpg" -o "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D_645.webp" --optimise resize 645
+sharp -i "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D.jpg" -o "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D_764.webp" --optimise resize 764
+sharp -i "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D.jpg" -o "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D_877.webp" --optimise resize 877
+sharp -i "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D.jpg" -o "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D_959.webp" --optimise resize 959
+sharp -i "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D.jpg" -o "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D_1032.webp" --optimise resize 1032
+sharp -i "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D.jpg" -o "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D_1114.webp" --optimise resize 1114
+sharp -i "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D.jpg" -o "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D_1210.webp" --optimise resize 1210
+sharp -i "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D.jpg" -o "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D_1331.webp" --optimise resize 1331
+sharp -i "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D.jpg" -o "./B854428C-CA26-4BB4-96EB-0EF6E61F1C5D_1400.webp" --optimise resize 1400
+
+sharp -i "./cheesecake-japones-ligero-y-esponjoso--455941p708691.jpg" -o "./cheesecake-japones-ligero-y-esponjoso--455941p708691_200.webp" --optimise resize 200
+sharp -i "./cheesecake-japones-ligero-y-esponjoso--455941p708691.jpg" -o "./cheesecake-japones-ligero-y-esponjoso--455941p708691_373.webp" --optimise resize 373
+sharp -i "./cheesecake-japones-ligero-y-esponjoso--455941p708691.jpg" -o "./cheesecake-japones-ligero-y-esponjoso--455941p708691_514.webp" --optimise resize 514
+sharp -i "./cheesecake-japones-ligero-y-esponjoso--455941p708691.jpg" -o "./cheesecake-japones-ligero-y-esponjoso--455941p708691_645.webp" --optimise resize 645
+sharp -i "./cheesecake-japones-ligero-y-esponjoso--455941p708691.jpg" -o "./cheesecake-japones-ligero-y-esponjoso--455941p708691_764.webp" --optimise resize 764
+sharp -i "./cheesecake-japones-ligero-y-esponjoso--455941p708691.jpg" -o "./cheesecake-japones-ligero-y-esponjoso--455941p708691_877.webp" --optimise resize 877
+sharp -i "./cheesecake-japones-ligero-y-esponjoso--455941p708691.jpg" -o "./cheesecake-japones-ligero-y-esponjoso--455941p708691_959.webp" --optimise resize 959
+sharp -i "./cheesecake-japones-ligero-y-esponjoso--455941p708691.jpg" -o "./cheesecake-japones-ligero-y-esponjoso--455941p708691_1032.webp" --optimise resize 1032
+sharp -i "./cheesecake-japones-ligero-y-esponjoso--455941p708691.jpg" -o "./cheesecake-japones-ligero-y-esponjoso--455941p708691_1114.webp" --optimise resize 1114
+sharp -i "./cheesecake-japones-ligero-y-esponjoso--455941p708691.jpg" -o "./cheesecake-japones-ligero-y-esponjoso--455941p708691_1210.webp" --optimise resize 1210
+sharp -i "./cheesecake-japones-ligero-y-esponjoso--455941p708691.jpg" -o "./cheesecake-japones-ligero-y-esponjoso--455941p708691_1331.webp" --optimise resize 1331
+sharp -i "./cheesecake-japones-ligero-y-esponjoso--455941p708691.jpg" -o "./cheesecake-japones-ligero-y-esponjoso--455941p708691_1400.webp" --optimise resize 1400
+
+sharp -i "./coockie.jpg" -o "./coockie_200.webp" --optimise resize 200
+sharp -i "./coockie.jpg" -o "./coockie_373.webp" --optimise resize 373
+sharp -i "./coockie.jpg" -o "./coockie_514.webp" --optimise resize 514
+sharp -i "./coockie.jpg" -o "./coockie_645.webp" --optimise resize 645
+sharp -i "./coockie.jpg" -o "./coockie_764.webp" --optimise resize 764
+sharp -i "./coockie.jpg" -o "./coockie_877.webp" --optimise resize 877
+sharp -i "./coockie.jpg" -o "./coockie_959.webp" --optimise resize 959
+sharp -i "./coockie.jpg" -o "./coockie_1032.webp" --optimise resize 1032
+sharp -i "./coockie.jpg" -o "./coockie_1114.webp" --optimise resize 1114
+sharp -i "./coockie.jpg" -o "./coockie_1210.webp" --optimise resize 1210
+sharp -i "./coockie.jpg" -o "./coockie_1331.webp" --optimise resize 1331
+sharp -i "./coockie.jpg" -o "./coockie_1400.webp" --optimise resize 1400
+
+sharp -i "./cook-putting-icing-decorations-cake.jpg" -o "./cook-putting-icing-decorations-cake_200.webp" --optimise resize 200
+sharp -i "./cook-putting-icing-decorations-cake.jpg" -o "./cook-putting-icing-decorations-cake_373.webp" --optimise resize 373
+sharp -i "./cook-putting-icing-decorations-cake.jpg" -o "./cook-putting-icing-decorations-cake_514.webp" --optimise resize 514
+sharp -i "./cook-putting-icing-decorations-cake.jpg" -o "./cook-putting-icing-decorations-cake_645.webp" --optimise resize 645
+sharp -i "./cook-putting-icing-decorations-cake.jpg" -o "./cook-putting-icing-decorations-cake_764.webp" --optimise resize 764
+sharp -i "./cook-putting-icing-decorations-cake.jpg" -o "./cook-putting-icing-decorations-cake_877.webp" --optimise resize 877
+sharp -i "./cook-putting-icing-decorations-cake.jpg" -o "./cook-putting-icing-decorations-cake_959.webp" --optimise resize 959
+sharp -i "./cook-putting-icing-decorations-cake.jpg" -o "./cook-putting-icing-decorations-cake_1032.webp" --optimise resize 1032
+sharp -i "./cook-putting-icing-decorations-cake.jpg" -o "./cook-putting-icing-decorations-cake_1114.webp" --optimise resize 1114
+sharp -i "./cook-putting-icing-decorations-cake.jpg" -o "./cook-putting-icing-decorations-cake_1210.webp" --optimise resize 1210
+sharp -i "./cook-putting-icing-decorations-cake.jpg" -o "./cook-putting-icing-decorations-cake_1331.webp" --optimise resize 1331
+sharp -i "./cook-putting-icing-decorations-cake.jpg" -o "./cook-putting-icing-decorations-cake_1400.webp" --optimise resize 1400
+
+sharp -i "./fresa_chocblanco.jpg" -o "./fresa_chocblanco_200.webp" --optimise resize 200
+sharp -i "./fresa_chocblanco.jpg" -o "./fresa_chocblanco_373.webp" --optimise resize 373
+sharp -i "./fresa_chocblanco.jpg" -o "./fresa_chocblanco_514.webp" --optimise resize 514
+sharp -i "./fresa_chocblanco.jpg" -o "./fresa_chocblanco_645.webp" --optimise resize 645
+sharp -i "./fresa_chocblanco.jpg" -o "./fresa_chocblanco_764.webp" --optimise resize 764
+sharp -i "./fresa_chocblanco.jpg" -o "./fresa_chocblanco_877.webp" --optimise resize 877
+sharp -i "./fresa_chocblanco.jpg" -o "./fresa_chocblanco_959.webp" --optimise resize 959
+sharp -i "./fresa_chocblanco.jpg" -o "./fresa_chocblanco_1032.webp" --optimise resize 1032
+sharp -i "./fresa_chocblanco.jpg" -o "./fresa_chocblanco_1114.webp" --optimise resize 1114
+sharp -i "./fresa_chocblanco.jpg" -o "./fresa_chocblanco_1210.webp" --optimise resize 1210
+sharp -i "./fresa_chocblanco.jpg" -o "./fresa_chocblanco_1331.webp" --optimise resize 1331
+sharp -i "./fresa_chocblanco.jpg" -o "./fresa_chocblanco_1400.webp" --optimise resize 1400
+
+sharp -i "./fresa_nata.jpeg" -o "./fresa_nata_200.webp" --optimise resize 200
+sharp -i "./fresa_nata.jpeg" -o "./fresa_nata_373.webp" --optimise resize 373
+sharp -i "./fresa_nata.jpeg" -o "./fresa_nata_514.webp" --optimise resize 514
+sharp -i "./fresa_nata.jpeg" -o "./fresa_nata_645.webp" --optimise resize 645
+sharp -i "./fresa_nata.jpeg" -o "./fresa_nata_764.webp" --optimise resize 764
+sharp -i "./fresa_nata.jpeg" -o "./fresa_nata_877.webp" --optimise resize 877
+sharp -i "./fresa_nata.jpeg" -o "./fresa_nata_959.webp" --optimise resize 959
+sharp -i "./fresa_nata.jpeg" -o "./fresa_nata_1032.webp" --optimise resize 1032
+sharp -i "./fresa_nata.jpeg" -o "./fresa_nata_1114.webp" --optimise resize 1114
+sharp -i "./fresa_nata.jpeg" -o "./fresa_nata_1210.webp" --optimise resize 1210
+sharp -i "./fresa_nata.jpeg" -o "./fresa_nata_1331.webp" --optimise resize 1331
+sharp -i "./fresa_nata.jpeg" -o "./fresa_nata_1400.webp" --optimise resize 1400
+
+sharp -i "./fresasConNata.jpg" -o "./fresasConNata_200.webp" --optimise resize 200
+sharp -i "./fresasConNata.jpg" -o "./fresasConNata_373.webp" --optimise resize 373
+sharp -i "./fresasConNata.jpg" -o "./fresasConNata_514.webp" --optimise resize 514
+sharp -i "./fresasConNata.jpg" -o "./fresasConNata_645.webp" --optimise resize 645
+sharp -i "./fresasConNata.jpg" -o "./fresasConNata_764.webp" --optimise resize 764
+sharp -i "./fresasConNata.jpg" -o "./fresasConNata_877.webp" --optimise resize 877
+sharp -i "./fresasConNata.jpg" -o "./fresasConNata_959.webp" --optimise resize 959
+sharp -i "./fresasConNata.jpg" -o "./fresasConNata_1032.webp" --optimise resize 1032
+sharp -i "./fresasConNata.jpg" -o "./fresasConNata_1114.webp" --optimise resize 1114
+sharp -i "./fresasConNata.jpg" -o "./fresasConNata_1210.webp" --optimise resize 1210
+sharp -i "./fresasConNata.jpg" -o "./fresasConNata_1331.webp" --optimise resize 1331
+sharp -i "./fresasConNata.jpg" -o "./fresasConNata_1400.webp" --optimise resize 1400
+
+sharp -i "./mango_nata.jpg" -o "./mango_nata_200.webp" --optimise resize 200
+sharp -i "./mango_nata.jpg" -o "./mango_nata_373.webp" --optimise resize 373
+sharp -i "./mango_nata.jpg" -o "./mango_nata_514.webp" --optimise resize 514
+sharp -i "./mango_nata.jpg" -o "./mango_nata_645.webp" --optimise resize 645
+sharp -i "./mango_nata.jpg" -o "./mango_nata_764.webp" --optimise resize 764
+sharp -i "./mango_nata.jpg" -o "./mango_nata_877.webp" --optimise resize 877
+sharp -i "./mango_nata.jpg" -o "./mango_nata_959.webp" --optimise resize 959
+sharp -i "./mango_nata.jpg" -o "./mango_nata_1032.webp" --optimise resize 1032
+sharp -i "./mango_nata.jpg" -o "./mango_nata_1114.webp" --optimise resize 1114
+sharp -i "./mango_nata.jpg" -o "./mango_nata_1210.webp" --optimise resize 1210
+sharp -i "./mango_nata.jpg" -o "./mango_nata_1331.webp" --optimise resize 1331
+sharp -i "./mango_nata.jpg" -o "./mango_nata_1400.webp" --optimise resize 1400
+
+sharp -i "./mango.jpeg" -o "./mango_200.webp" --optimise resize 200
+sharp -i "./mango.jpeg" -o "./mango_373.webp" --optimise resize 373
+sharp -i "./mango.jpeg" -o "./mango_514.webp" --optimise resize 514
+sharp -i "./mango.jpeg" -o "./mango_645.webp" --optimise resize 645
+sharp -i "./mango.jpeg" -o "./mango_764.webp" --optimise resize 764
+sharp -i "./mango.jpeg" -o "./mango_877.webp" --optimise resize 877
+sharp -i "./mango.jpeg" -o "./mango_959.webp" --optimise resize 959
+sharp -i "./mango.jpeg" -o "./mango_1032.webp" --optimise resize 1032
+sharp -i "./mango.jpeg" -o "./mango_1114.webp" --optimise resize 1114
+sharp -i "./mango.jpeg" -o "./mango_1210.webp" --optimise resize 1210
+sharp -i "./mango.jpeg" -o "./mango_1331.webp" --optimise resize 1331
+sharp -i "./mango.jpeg" -o "./mango_1400.webp" --optimise resize 1400
+
+sharp -i "./mangoCup.jpg" -o "./mangoCup_200.webp" --optimise resize 200
+sharp -i "./mangoCup.jpg" -o "./mangoCup_373.webp" --optimise resize 373
+sharp -i "./mangoCup.jpg" -o "./mangoCup_514.webp" --optimise resize 514
+sharp -i "./mangoCup.jpg" -o "./mangoCup_645.webp" --optimise resize 645
+sharp -i "./mangoCup.jpg" -o "./mangoCup_764.webp" --optimise resize 764
+sharp -i "./mangoCup.jpg" -o "./mangoCup_877.webp" --optimise resize 877
+sharp -i "./mangoCup.jpg" -o "./mangoCup_959.webp" --optimise resize 959
+sharp -i "./mangoCup.jpg" -o "./mangoCup_1032.webp" --optimise resize 1032
+sharp -i "./mangoCup.jpg" -o "./mangoCup_1114.webp" --optimise resize 1114
+sharp -i "./mangoCup.jpg" -o "./mangoCup_1210.webp" --optimise resize 1210
+sharp -i "./mangoCup.jpg" -o "./mangoCup_1331.webp" --optimise resize 1331
+sharp -i "./mangoCup.jpg" -o "./mangoCup_1400.webp" --optimise resize 1400
+
+sharp -i "./mrc-temiscamingue-mgxL_RIUKsM-unsplash.jpg" -o "./mrc-temiscamingue-mgxL_RIUKsM-unsplash_200.webp" --optimise resize 200
+sharp -i "./mrc-temiscamingue-mgxL_RIUKsM-unsplash.jpg" -o "./mrc-temiscamingue-mgxL_RIUKsM-unsplash_373.webp" --optimise resize 373
+sharp -i "./mrc-temiscamingue-mgxL_RIUKsM-unsplash.jpg" -o "./mrc-temiscamingue-mgxL_RIUKsM-unsplash_514.webp" --optimise resize 514
+sharp -i "./mrc-temiscamingue-mgxL_RIUKsM-unsplash.jpg" -o "./mrc-temiscamingue-mgxL_RIUKsM-unsplash_645.webp" --optimise resize 645
+sharp -i "./mrc-temiscamingue-mgxL_RIUKsM-unsplash.jpg" -o "./mrc-temiscamingue-mgxL_RIUKsM-unsplash_764.webp" --optimise resize 764
+sharp -i "./mrc-temiscamingue-mgxL_RIUKsM-unsplash.jpg" -o "./mrc-temiscamingue-mgxL_RIUKsM-unsplash_877.webp" --optimise resize 877
+sharp -i "./mrc-temiscamingue-mgxL_RIUKsM-unsplash.jpg" -o "./mrc-temiscamingue-mgxL_RIUKsM-unsplash_959.webp" --optimise resize 959
+sharp -i "./mrc-temiscamingue-mgxL_RIUKsM-unsplash.jpg" -o "./mrc-temiscamingue-mgxL_RIUKsM-unsplash_1032.webp" --optimise resize 1032
+sharp -i "./mrc-temiscamingue-mgxL_RIUKsM-unsplash.jpg" -o "./mrc-temiscamingue-mgxL_RIUKsM-unsplash_1114.webp" --optimise resize 1114
+sharp -i "./mrc-temiscamingue-mgxL_RIUKsM-unsplash.jpg" -o "./mrc-temiscamingue-mgxL_RIUKsM-unsplash_1210.webp" --optimise resize 1210
+sharp -i "./mrc-temiscamingue-mgxL_RIUKsM-unsplash.jpg" -o "./mrc-temiscamingue-mgxL_RIUKsM-unsplash_1331.webp" --optimise resize 1331
+sharp -i "./mrc-temiscamingue-mgxL_RIUKsM-unsplash.jpg" -o "./mrc-temiscamingue-mgxL_RIUKsM-unsplash_1400.webp" --optimise resize 1400
+
+sharp -i "./pexels-pixabay-45908.jpg" -o "./pexels-pixabay-45908_200.webp" --optimise resize 200
+sharp -i "./pexels-pixabay-45908.jpg" -o "./pexels-pixabay-45908_373.webp" --optimise resize 373
+sharp -i "./pexels-pixabay-45908.jpg" -o "./pexels-pixabay-45908_514.webp" --optimise resize 514
+sharp -i "./pexels-pixabay-45908.jpg" -o "./pexels-pixabay-45908_645.webp" --optimise resize 645
+sharp -i "./pexels-pixabay-45908.jpg" -o "./pexels-pixabay-45908_764.webp" --optimise resize 764
+sharp -i "./pexels-pixabay-45908.jpg" -o "./pexels-pixabay-45908_877.webp" --optimise resize 877
+sharp -i "./pexels-pixabay-45908.jpg" -o "./pexels-pixabay-45908_959.webp" --optimise resize 959
+sharp -i "./pexels-pixabay-45908.jpg" -o "./pexels-pixabay-45908_1032.webp" --optimise resize 1032
+sharp -i "./pexels-pixabay-45908.jpg" -o "./pexels-pixabay-45908_1114.webp" --optimise resize 1114
+sharp -i "./pexels-pixabay-45908.jpg" -o "./pexels-pixabay-45908_1210.webp" --optimise resize 1210
+sharp -i "./pexels-pixabay-45908.jpg" -o "./pexels-pixabay-45908_1331.webp" --optimise resize 1331
+sharp -i "./pexels-pixabay-45908.jpg" -o "./pexels-pixabay-45908_1400.webp" --optimise resize 1400
+
+sharp -i "./seamless-pattern-chrysanthemum-flowers-white-backdrop.jpg" -o "./seamless-pattern-chrysanthemum-flowers-white-backdrop_200.webp" --optimise resize 200
+sharp -i "./seamless-pattern-chrysanthemum-flowers-white-backdrop.jpg" -o "./seamless-pattern-chrysanthemum-flowers-white-backdrop_373.webp" --optimise resize 373
+sharp -i "./seamless-pattern-chrysanthemum-flowers-white-backdrop.jpg" -o "./seamless-pattern-chrysanthemum-flowers-white-backdrop_514.webp" --optimise resize 514
+sharp -i "./seamless-pattern-chrysanthemum-flowers-white-backdrop.jpg" -o "./seamless-pattern-chrysanthemum-flowers-white-backdrop_645.webp" --optimise resize 645
+sharp -i "./seamless-pattern-chrysanthemum-flowers-white-backdrop.jpg" -o "./seamless-pattern-chrysanthemum-flowers-white-backdrop_764.webp" --optimise resize 764
+sharp -i "./seamless-pattern-chrysanthemum-flowers-white-backdrop.jpg" -o "./seamless-pattern-chrysanthemum-flowers-white-backdrop_877.webp" --optimise resize 877
+sharp -i "./seamless-pattern-chrysanthemum-flowers-white-backdrop.jpg" -o "./seamless-pattern-chrysanthemum-flowers-white-backdrop_959.webp" --optimise resize 959
+sharp -i "./seamless-pattern-chrysanthemum-flowers-white-backdrop.jpg" -o "./seamless-pattern-chrysanthemum-flowers-white-backdrop_1032.webp" --optimise resize 1032
+sharp -i "./seamless-pattern-chrysanthemum-flowers-white-backdrop.jpg" -o "./seamless-pattern-chrysanthemum-flowers-white-backdrop_1114.webp" --optimise resize 1114
+sharp -i "./seamless-pattern-chrysanthemum-flowers-white-backdrop.jpg" -o "./seamless-pattern-chrysanthemum-flowers-white-backdrop_1210.webp" --optimise resize 1210
+sharp -i "./seamless-pattern-chrysanthemum-flowers-white-backdrop.jpg" -o "./seamless-pattern-chrysanthemum-flowers-white-backdrop_1331.webp" --optimise resize 1331
+sharp -i "./seamless-pattern-chrysanthemum-flowers-white-backdrop.jpg" -o "./seamless-pattern-chrysanthemum-flowers-white-backdrop_1400.webp" --optimise resize 1400
+
+sharp -i "./tartaqueso_frutosrojos-opt.jpg" -o "./tartaqueso_frutosrojos-opt_200.webp" --optimise resize 200
+sharp -i "./tartaqueso_frutosrojos-opt.jpg" -o "./tartaqueso_frutosrojos-opt_373.webp" --optimise resize 373
+sharp -i "./tartaqueso_frutosrojos-opt.jpg" -o "./tartaqueso_frutosrojos-opt_514.webp" --optimise resize 514
+sharp -i "./tartaqueso_frutosrojos-opt.jpg" -o "./tartaqueso_frutosrojos-opt_645.webp" --optimise resize 645
+sharp -i "./tartaqueso_frutosrojos-opt.jpg" -o "./tartaqueso_frutosrojos-opt_764.webp" --optimise resize 764
+sharp -i "./tartaqueso_frutosrojos-opt.jpg" -o "./tartaqueso_frutosrojos-opt_877.webp" --optimise resize 877
+sharp -i "./tartaqueso_frutosrojos-opt.jpg" -o "./tartaqueso_frutosrojos-opt_959.webp" --optimise resize 959
+sharp -i "./tartaqueso_frutosrojos-opt.jpg" -o "./tartaqueso_frutosrojos-opt_1032.webp" --optimise resize 1032
+sharp -i "./tartaqueso_frutosrojos-opt.jpg" -o "./tartaqueso_frutosrojos-opt_1114.webp" --optimise resize 1114
+sharp -i "./tartaqueso_frutosrojos-opt.jpg" -o "./tartaqueso_frutosrojos-opt_1210.webp" --optimise resize 1210
+sharp -i "./tartaqueso_frutosrojos-opt.jpg" -o "./tartaqueso_frutosrojos-opt_1331.webp" --optimise resize 1331
+sharp -i "./tartaqueso_frutosrojos-opt.jpg" -o "./tartaqueso_frutosrojos-opt_1400.webp" --optimise resize 1400
+
+sharp -i "./tartaqueso_frutosrojos.jpg" -o "./tartaqueso_frutosrojos_200.webp" --optimise resize 200
+sharp -i "./tartaqueso_frutosrojos.jpg" -o "./tartaqueso_frutosrojos_373.webp" --optimise resize 373
+sharp -i "./tartaqueso_frutosrojos.jpg" -o "./tartaqueso_frutosrojos_514.webp" --optimise resize 514
+sharp -i "./tartaqueso_frutosrojos.jpg" -o "./tartaqueso_frutosrojos_645.webp" --optimise resize 645
+sharp -i "./tartaqueso_frutosrojos.jpg" -o "./tartaqueso_frutosrojos_764.webp" --optimise resize 764
+sharp -i "./tartaqueso_frutosrojos.jpg" -o "./tartaqueso_frutosrojos_877.webp" --optimise resize 877
+sharp -i "./tartaqueso_frutosrojos.jpg" -o "./tartaqueso_frutosrojos_959.webp" --optimise resize 959
+sharp -i "./tartaqueso_frutosrojos.jpg" -o "./tartaqueso_frutosrojos_1032.webp" --optimise resize 1032
+sharp -i "./tartaqueso_frutosrojos.jpg" -o "./tartaqueso_frutosrojos_1114.webp" --optimise resize 1114
+sharp -i "./tartaqueso_frutosrojos.jpg" -o "./tartaqueso_frutosrojos_1210.webp" --optimise resize 1210
+sharp -i "./tartaqueso_frutosrojos.jpg" -o "./tartaqueso_frutosrojos_1331.webp" --optimise resize 1331
+sharp -i "./tartaqueso_frutosrojos.jpg" -o "./tartaqueso_frutosrojos_1400.webp" --optimise resize 1400
+
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view-opt.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view-opt_200.webp" --optimise resize 200
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view-opt.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view-opt_373.webp" --optimise resize 373
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view-opt.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view-opt_514.webp" --optimise resize 514
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view-opt.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view-opt_645.webp" --optimise resize 645
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view-opt.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view-opt_764.webp" --optimise resize 764
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view-opt.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view-opt_877.webp" --optimise resize 877
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view-opt.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view-opt_959.webp" --optimise resize 959
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view-opt.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view-opt_1032.webp" --optimise resize 1032
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view-opt.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view-opt_1114.webp" --optimise resize 1114
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view-opt.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view-opt_1210.webp" --optimise resize 1210
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view-opt.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view-opt_1331.webp" --optimise resize 1331
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view-opt.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view-opt_1400.webp" --optimise resize 1400
+
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view_200.webp" --optimise resize 200
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view_373.webp" --optimise resize 373
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view_514.webp" --optimise resize 514
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view_645.webp" --optimise resize 645
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view_764.webp" --optimise resize 764
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view_877.webp" --optimise resize 877
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view_959.webp" --optimise resize 959
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view_1032.webp" --optimise resize 1032
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view_1114.webp" --optimise resize 1114
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view_1210.webp" --optimise resize 1210
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view_1331.webp" --optimise resize 1331
+sharp -i "./various-types-sugar-brown-sugar-white-concrete-top-view.jpg" -o "./various-types-sugar-brown-sugar-white-concrete-top-view_1400.webp" --optimise resize 1400

@@ -1,10 +1,9 @@
 /* Variables:*/
 $color-principal: #97ac99;
 $color-secundario: #CAD8C3;
+$color-terciario: #C71585; //Constraste de color 4.5:1
 
 /*------Página principal-------*/
-
-
 @font-face {
     font-family: Montserrat;
     src: url('/src/Montserrat/Montserrat-VariableFont_wght.ttf');
@@ -59,14 +58,12 @@ body {
 
 .nav-link {
     text-decoration: none;
-    color: $color-secundario;
+    color: white;
     padding-left: 15px;
 
     &:hover {
-        font-weight: bold;
-        background-color: $color-secundario;
-        color: $color-principal;
-        padding: 5px;
+        color: $color-secundario;
+       
 
         >.nav-sublink {
             /*Despliega las categorias de la lista del nav*/
@@ -129,17 +126,15 @@ li:hover .nav_sublink {
 
 .nav-reserve {
     text-decoration: none;
-    color: black;
-    background-color: $color-secundario;
+    color: white;
+    background-color: $color-terciario;
     border-radius: 10px;
     padding: 5px;
 
 
 }
 
-.nav-reserve:hover {
-    font-weight: bold;
-}
+
 
 /* Grid */
 .grid {
@@ -202,7 +197,16 @@ li:hover .nav_sublink {
     margin-bottom: 400px;
     /* Empuja los elementos hacia abajo*/
 
+    animation: fadeIn 4s ease-out; //animación los elementos de este apartado aparecen después de 4 segundos.
+
+
 }
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+
 
 .value {
     height: 400px;
@@ -214,6 +218,9 @@ li:hover .nav_sublink {
         overflow: hidden;
         object-fit: cover;
         border-radius: 15px;
+
+        clip-path: ellipse(90% 80% at 50% 80%); //clip-path.
+
     }
 }
 
@@ -229,7 +236,8 @@ li:hover .nav_sublink {
 .products {
     width: 100%;
     height: auto;
-    background-image: url(Img/seamless-pattern-chrysanthemum-flowers-white-backdrop.jpg);
+
+    background-image: url("Img/seamless-pattern-chrysanthemum-flowers-white-backdrop.jpg");    
     background-color: rgba(255, 255, 255, 0.6);
     background-blend-mode: lighten;
     background-repeat: no-repeat;
@@ -269,29 +277,56 @@ li:hover .nav_sublink {
 .link_cards {
     text-decoration: none;
     color: black;
+    display: flex;
+    flex-direction: column;
 }
 
-.cards {
-    /*Figure*/
+
+
+.card_background{
     background-color: white;
-    position: relative;
-    height: auto;
+    border:#ecf0f1 1px solid;
     border-radius: 10px;
+    overflow: hidden;
+    transition: box-shadow 0.2s ease-in-out;
 
+    &:hover{
+        background-color: white;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 
-
+    }
 }
+
+
+.link_cards {
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+   
+
+    .card-bottom{
+        display: flex;
+        padding: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+}
+
 
 figure {
-    &.cards {
-        padding: 2px;
-        margin: 20px;
-        transition: margin 0.2s ease-in-out;
 
-        &:hover {
-            padding: 2px;
-            margin: 10px;
+    &.cards {
+        padding: 0px;
+        margin: 0px;
+        position: relative;
+        height: auto;
+
+
+        transition: margin 0.2s ease-in-out;
+        h2 {
+            padding: 0px 7px 0px 7px;
         }
+
 
         img {
             width: 100%;
@@ -299,7 +334,6 @@ figure {
             max-height: 150px;
             overflow: hidden;
             object-fit: cover;
-            border-radius: 15px;
         }
 
         h2 {
@@ -308,8 +342,8 @@ figure {
 
         figcaption {
             font-size: 12px;
-            margin-left: 20px;
-            margin-right: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
             margin-bottom: 20px;
         }
     }
@@ -320,20 +354,23 @@ figure {
 
 .more_info {
     /* Botón más información */
-    background-color: $color-secundario;
+    width: 60%;
+    
+    
+    background-color: $color-terciario;
 
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-    margin-bottom: 20px;
+    padding: 10px 20px 10px 20px;
 
     border: none;
     border-radius: 5px;
 
     font-weight: bold;
     color: white;
+    transition: background-color 0.1s linear;
+
+    &:hover {
+        background-color: #9b59b6;
+    }
 
 }
 
@@ -346,7 +383,7 @@ footer {
 }
 
 .footer_section {
-    width: 100vw;
+    width: 85vw;
     display: flex;
     margin-right: 100px;
     margin-left: 100px;
@@ -392,6 +429,8 @@ footer {
 }
 
 
+
+
 /*===================PAGE:cheesecake.html && PAEGE:cake_fruits.html====================*/
 
 
@@ -417,6 +456,7 @@ footer {
         width: 100%;
         height: auto;
         margin-left: 0;
+        clip-path: xywh(0 5px 100% 90% round 15% 0);
     }
 
     figcaption {
@@ -443,7 +483,7 @@ footer {
 
 .cheese_card {
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
 
     img {
         width: 30%;
@@ -477,6 +517,7 @@ footer {
 
 
 /*------Tablet mode-------*/
+
 @media screen and (min-width: 820px) and (max-width: 1180px),
 //medidas ipadAir
 screen and (min-device-width: 820px) and (max-device-width: 1180px) {
@@ -634,6 +675,7 @@ screen and (min-device-width: 820px) and (max-device-width: 1180px) {
 
 
 /*------Phone mode-------*/
+
 @media screen and (max-width: 667px),
 screen and (max-device-width: 667px) {
 
@@ -738,7 +780,7 @@ screen and (max-device-width: 667px) {
     .definicion_valores {
         grid-template-columns: repeat(1, 1fr);
         /* Cambiar de cuatro a una columnas */
-
+    
 
     }
 
@@ -755,12 +797,7 @@ screen and (max-device-width: 667px) {
     .collection_cards {
         grid-template-columns: repeat(1, 1fr);
 
-        /* Cambiar de cuatro a dos columnas */
-        .link_cards {
-            width: 80%;
-            margin-left: auto;
-            margin-right: auto;
-        }
+
     }
 
     .footer_section {
