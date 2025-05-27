@@ -12,12 +12,7 @@
       content="pasteleria, japonesa, artedulce,postres, artesano, tarta de queso"
     />
     <link rel="stylesheet" href="/src/indexStyle.scss" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+
     <link rel="icon" href="Img/Logo_ArteDulce_Transparent.svg" />
     <title>CheeseCake | Pastelería "ArteDulce"</title>
   </head>
@@ -28,7 +23,7 @@
       <nav class="background-nav">
         <div class="nav-wrapper">
           <div class="img_wrapper">
-            <img
+            <img 
               src="Img/Logo_ArteDulce_Transparent.svg"
               alt="Logo_ArteDulce"
               id="logoArteDulce"
@@ -74,21 +69,15 @@
         <div class="wrapper_section">
           <figure class="header_page2">
             <picture>
-              <img
+              <img 
+              class="lazyloading"
+              loading="lazy"
                 sizes="(max-width: 1400px) 100vw, 1400px"
                 srcset="
                   Img/73-scaled_200.webp   200w,
                   Img/73-scaled_373.webp   373w,
                   Img/73-scaled_514.webp   514w,
-                  Img/73-scaled_645.webp   645w,
-                  Img/73-scaled_764.webp   764w,
-                  Img/73-scaled_877.webp   877w,
-                  Img/73-scaled_959.webp   959w,
-                  Img/73-scaled_1032.webp 1032w,
-                  Img/73-scaled_1114.webp 1114w,
-                  Img/73-scaled_1210.webp 1210w,
-                  Img/73-scaled_1331.webp 1331w,
-                  Img/73-scaled_1400.webp 1400w
+                  Img/73-scaled_645.webp   645w
                 "
                 src="Img/73-scaled_200.webp"
                 alt="Cutted_CheeseCake_japanese"
@@ -136,19 +125,24 @@
             <br />
           </p>
         </div>
-        <video width="640" height="360" class="video" controls>
-          <source src="/src/Img/videoBatirHuevos.mp4" type="video/mp4" />
-          <source src="/src/Img/videoBatirHuevos.mp4" type="video/webm" />
-        </video>
+          <video controls preload="none" width="640" height="360" class="video" >
+            <source src="/src/Img/videoBatirHuevos.mp4" type="video/mp4" />
+            <source src="/src/Img/videoBatirHuevos.mp4" type="video/webm" />
+          </video>
 
         <div class="cheesecake_disponibles">
           <h2>Productos disponibles ( 2 disponibles )</h2>
           <div class="cheesecake_cards">
             <div class="cheese_card">
+              <picture>
               <img
+                class="lazyloading"
+                loading="lazy"
+                sizes="(max-width: 1400px) 100vw, 1400px"
                 src="Img/Escritorio/japanese_cheesecake_357*235.webp"
                 alt="cheeseCake_japanese"
               />
+              </picture>
               <div class="text">
                 <h3>Cheese Cake japonés</h3>
                 <p>
@@ -166,10 +160,15 @@
               </div>
             </div>
             <div class="cheese_card">
+              <picture>
               <img
+              class="lazyloading"
+               loading="lazy"
+               sizes="(max-width: 1400px) 100vw, 1400px"
                 src="Img/Escritorio/cheeseCake_WildFruits_375*235.webp"
                 alt="cheeseCake_frutosRojos"
               />
+              </picture>
               <div class="text">
                 <h3>Cheese Cake de frutos rojos</h3>
                 <p>
@@ -207,6 +206,8 @@
                     ><!--Link 1: Cheese Cake-->
                     <figure class="cards">
                       <img
+                      class="lazyloading"
+                       loading="lazy"
                         src="Img/Escritorio/cheeseCake_japanese.webp"
                         alt="cheeseCake_japanese"
                         width="200"
@@ -233,6 +234,8 @@
                     <figure class="cards">
                       <picture>
                         <img
+                        class="lazyloading"
+                         loading="lazy"
                           sizes="(max-width: 1400px) 100vw, 1400px"
                           width="200"
                           height="75"
@@ -274,6 +277,8 @@
                     <figure class="cards">
                       <picture>
                         <img
+                        class="lazyloading"
+                         loading="lazy"
                           sizes="(max-width: 1400px) 100vw, 1400px"
                           srcset="
                             Img/coockie_200.webp   200w,
@@ -313,6 +318,8 @@
                     <figure class="cards">
                       <picture>
                         <img
+                        class="lazyloading"
+                         loading="lazy"
                           sizes="(max-width: 1400px) 100vw, 1400px"
                           width="200"
                           height="75"
@@ -356,7 +363,7 @@
     </main>
     <footer>
       <nav class="footer_section">
-        <img src="Img/Logo_ArteDulce_Transparent.svg" alt="Logo_ArteDulce" />
+        <img class="lazyloading"  loading="lazy" src="Img/Logo_ArteDulce_Transparent.svg" alt="Logo_ArteDulce"/>
         <div class="Espacio"></div>
         <div class="wrapper_footer">
           <ul>
@@ -392,6 +399,6 @@
       </nav>
     </footer>
 
-    <script src="index.js" type="module"></script>
+    <script src="index.js" type="module" defer></script>
   </body>
 </html>

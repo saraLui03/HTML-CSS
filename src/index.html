@@ -9,12 +9,6 @@
       content="pasteleria, japonesa, artedulce,postres, artesano"
     />
     <link rel="stylesheet" href="/src/indexStyle.scss" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
     <link rel="icon" href="Img/Logo_ArteDulce_Transparent.svg" />
     <title>Inicio | Pastelería "ArteDulce"</title>
   </head>
@@ -25,12 +19,13 @@
       <nav class="background-nav">
         <div class="nav-wrapper">
           <div class="img_wrapper">
-            <img
-              src="Img/Logo_ArteDulce_Transparent.svg"
+            <img 
+            class="lazyloading"
+              loading="lazy"
+              data-src="Img/Logo_ArteDulce_Transparent.svg"
               srcset="
                 Img/Logo_ArteDulce_Transparent.svg  600w,
-                Img/Logo_ArteDulce_Transparent.svg  800w,
-                Img/Logo_ArteDulce_Transparent.svg 1200w
+                Img/Logo_ArteDulce_Transparent.svg  800w
               "
               sizes="(max-width:667px) 100vw, 50vw"
               alt="Logo_ArteDulce"
@@ -73,8 +68,9 @@
       <div class="grid">
         <div class="element">
           <img
+            loading="lazy"
             class="cell"
-            src="Img/Escritorio/pastelito.webp"
+            data-src="Img/Escritorio/pastelito.webp"
             alt="pastel_de_mango">
         </div>
         <div class="element">
@@ -87,12 +83,13 @@
         </div>
         <div class="element">
           <img
+          class="lazyloading"
+            loading="lazy"
             class="cell"
-            src="Img/Escritorio/choclolateBlancoConFresas.webp"
+            data-src="Img/Escritorio/choclolateBlancoConFresas.webp"
             srcset="
               Img/Escritorio/choclolateBlancoConFresas.webp  600w,
-              Img/Escritorio/choclolateBlancoConFresas.webp  800w,
-              Img/Escritorio/choclolateBlancoConFresas.webp 1200w
+              Img/Escritorio/choclolateBlancoConFresas.webp  800w
             "
             sizes="(max-width:667px) 100vw, 50vw"
             alt="mangoConFresas"
@@ -100,12 +97,13 @@
         </div>
         <div class="element">
           <img
+          class="lazyloading"
+            loading="lazy"
             class="cell"
-            src="Img/Escritorio/logo_ArteDulce.webp"
+            data-src="Img/Escritorio/logo_ArteDulce.webp"
             srcset="
               Img/Escritorio/logo_ArteDulce.webp  600w,
-              Img/Escritorio/logo_ArteDulce.webp  800w,
-              Img/Escritorio/logo_ArteDulce.webp 1200w
+              Img/Escritorio/logo_ArteDulce.webp  800w
             "
             sizes="(max-width:600px) 100vw, 50vw"
             alt="logo_artedulce"
@@ -114,12 +112,13 @@
 
         <div class="element">
           <img
+          class="lazyloading"
+          loading="lazy"
             class="cell"
-            src="Img/Escritorio/mouse_mango.webp"
+            data-src="Img/Escritorio/mouse_mango.webp"
             srcset="
               Img/Escritorio/mouse_mango.webp  600w,
-              Img/Escritorio/mouse_mango.webp  800w,
-              Img/Escritorio/mouse_mango.webp 1200w
+              Img/Escritorio/mouse_mango.webp  800w
             "
             sizes="(max-width:667px) 100vw, 50vw"
             alt="pastel_mouse_de_mango"
@@ -128,12 +127,13 @@
 
         <div class="element">
           <img
+          class="lazyloading"
+          loading="lazy"
             class="cell"
-            src="Img/Escritorio/logo_ArteDulce.webp"
+            data-src="Img/Escritorio/logo_ArteDulce.webp"
             srcset="
               Img/Escritorio/logo_ArteDulce.webp  600w,
-              Img/Escritorio/logo_ArteDulce.webp  800w,
-              Img/Escritorio/logo_ArteDulce.webp 1200w
+              Img/Escritorio/logo_ArteDulce.webp  800w
             "
             sizes="(max-width:667px) 100vw, 50vw"
             alt="logo_artedulce"
@@ -160,6 +160,8 @@
               <!--value 1-->
               <picture>
                 <img
+                class="lazyloading"
+                loading="lazy"
                   sizes="(max-width: 1400px) 100vw, 1400px"
                   srcset="
                     Img/pexels-pixabay-45908_200.webp   200w,
@@ -174,7 +176,7 @@
                     Img/pexels-pixabay-45908_1210.webp 1210w,
                     Img/pexels-pixabay-45908_1331.webp 1331w
                   "
-                  src="Img/pexels-pixabay-45908_200.webp"
+                  data-src="Img/pexels-pixabay-45908_200.webp"
                   alt="blueberry_natural"
                 />
               </picture>
@@ -192,6 +194,8 @@
               <!--value 2-->
               <picture>
                 <img
+                class="lazyloading"
+                loading="lazy"
                   sizes="(max-width: 1400px) 100vw, 1400px"
                   srcset="
                     Img/cook-putting-icing-decorations-cake_200.webp   200w,
@@ -206,7 +210,7 @@
                     Img/cook-putting-icing-decorations-cake_1210.webp 1210w,
                     Img/cook-putting-icing-decorations-cake_1331.webp 1331w
                   "
-                  src="Img/cook-putting-icing-decorations-cake_200.webp"
+                  data-src="Img/cook-putting-icing-decorations-cake_200.webp"
                   alt="manga_pastelera"
                 />
               </picture>
@@ -224,6 +228,8 @@
               <!--value 3-->
               <picture>
                 <img
+                class="lazyloading"
+                loading="lazy"
                   sizes="(max-width: 1400px) 100vw, 1400px"
                   srcset="
                     Img/various-types-sugar-brown-sugar-white-concrete-top-view_200.webp   200w,
@@ -238,7 +244,7 @@
                     Img/various-types-sugar-brown-sugar-white-concrete-top-view_1210.webp 1210w,
                     Img/various-types-sugar-brown-sugar-white-concrete-top-view_1331.webp 1331w
                   "
-                  src="Img/various-types-sugar-brown-sugar-white-concrete-top-view_200.webp"
+                  data-src="Img/various-types-sugar-brown-sugar-white-concrete-top-view_200.webp"
                   alt="background"
                 />
               </picture>
@@ -273,7 +279,9 @@
                     ><!--Link 1: Cheese Cake-->
                     <figure class="cards">
                       <img
-                        src="Img/Escritorio/cheeseCake_japanese.webp"
+                      class="lazyloading"
+                      loading="lazy"
+                        data-src="Img/Escritorio/cheeseCake_japanese.webp"
                         srcset="
                           Img/Escritorio/cheeseCake_japanese.webp  600w,
                           Img/Escritorio/cheeseCake_japanese.webp  800w,
@@ -281,7 +289,7 @@
                         "
                         sizes="(max-width:667px) 100vw, 50vw"
                         alt="cheeseCake_japanese"
-                      />
+                      >
                       <h2>Tarta de queso japonés</h2>
                       <figcaption>
                         Tartas de queso japonesas caseras, utilizando solo
@@ -303,6 +311,8 @@
                     <figure class="cards">
                       <picture>
                         <img
+                        class="lazyloading"
+                        loading="lazy"
                           sizes="(max-width: 1400px) 100vw, 1400px"
                           srcset="
                             Img/fresasConNata_200.webp   200w,
@@ -317,7 +327,7 @@
                             Img/fresasConNata_1210.webp 1210w,
                             Img/fresasConNata_1331.webp 1331w
                           "
-                          src="Img/fresasConNata_200.webp"
+                          data-src="Img/fresasConNata_200.webp"
                           alt="pastel_fresasConNata"
                         />
                       </picture>
@@ -342,6 +352,8 @@
                     <figure class="cards">
                       <picture>
                         <img
+                        class="lazyloading"
+                        loading="lazy"
                           sizes="(max-width: 1400px) 100vw, 1400px"
                           srcset="
                             Img/coockie_200.webp   200w,
@@ -356,7 +368,7 @@
                             Img/coockie_1210.webp 1210w,
                             Img/coockie_1331.webp 1331w
                           "
-                          src="Img/coockie_200.webp"
+                          data-src="Img/coockie_200.webp"
                           alt="oreo_cake"
                         />
                       </picture>
@@ -381,6 +393,8 @@
                     <figure class="cards">
                       <picture>
                         <img
+                        class="lazyloading"
+                        loading="lazy"
                           sizes="(max-width: 1400px) 100vw, 1400px"
                           srcset="
                             Img/mangoCup_200.webp   200w,
@@ -395,7 +409,7 @@
                             Img/mangoCup_1210.webp 1210w,
                             Img/mangoCup_1331.webp 1331w
                           "
-                          src="Img/mangoCup_200.webp"
+                          data-src="Img/mangoCup_200.webp"
                           alt="mangoCup"
                         />
                       </picture>
@@ -423,7 +437,9 @@
     <footer>
       <nav class="footer_section">
         <img
-          src="Img/Logo_ArteDulce_Transparent.svg"
+        class="lazyloading"
+        loading="lazy"
+          data-src="Img/Logo_ArteDulce_Transparent.svg"
           srcset="
             Img/Logo_ArteDulce_Transparent.svg  600w,
             Img/Logo_ArteDulce_Transparent.svg  800w,
@@ -467,6 +483,6 @@
       </nav>
     </footer>
 
-    <script src="index.js" type="module"></script>
+    <script src="index.js" type="module" async></script>
   </body>
 </html>

@@ -2,7 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta
       name="description"
       content="Pastelería 'ArteDulce' ofrece tartas con frutas de temporada realizadas de manera artesanalmente"
@@ -12,12 +12,6 @@
       content="pasteleria, japonesa, artedulce,postres, artesano, fruta de temporada, pasteles"
     />
     <link rel="stylesheet" href="/src/indexStyle.scss" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
     <link rel="icon" href="Img/Logo_ArteDulce_Transparent.svg" />
     <title>Pasteles de frutas de temporada | Pastelería "ArteDulce"</title>
   </head>
@@ -29,6 +23,8 @@
         <div class="nav-wrapper">
           <div class="img_wrapper">
             <img
+            class="lazyloading" 
+            loading="lazy"
               src="Img/Logo_ArteDulce_Transparent.svg"
               alt="Logo_ArteDulce"
               id="logoArteDulce"
@@ -74,6 +70,8 @@
           <figure class="header_page2">
             <picture>
               <img
+              class="lazyloading" 
+              loading="lazy"
                 sizes="(max-width: 1400px) 100vw, 1400px"
                 srcset="
               Img/fresasConNata_200.webp 200w,
@@ -125,7 +123,7 @@
             mal.
           </p>
         </div>
-        <video width="640" height="360" class="video" controls>
+        <video controls preload="none" width="640" height="360" class="video">
           <source src="/src/Img/videoUntarCream.mp4" type="video/mp4" />
           <source src="/src/Img/videoUntarCream.mp4" type="video/webm" />
         </video>
@@ -135,6 +133,8 @@
             <div class="cheese_card">
               <picture>
                 <img
+                class="lazyloading" 
+                loading="lazy"
                   sizes="(max-width: 1400px) 100vw, 1400px"
                   srcset="
                     Img/mango_nata_200.webp   200w,
@@ -172,6 +172,8 @@
             <div class="cheese_card">
               <picture>
                 <img
+                class="lazyloading" 
+                loading="lazy"
                   sizes="(max-width: 1400px) 100vw, 1400px"
                   srcset="
                 Img/fresa_nata_200.webp 200w,
@@ -229,6 +231,8 @@
                     ><!--Link 1: Cheese Cake-->
                     <figure class="cards">
                       <img
+                      class="lazyloading" 
+                      loading="lazy"
                         src="Img/Escritorio/cheeseCake_japanese.webp"
                         alt="cheeseCake_japanese"
                         width="200"
@@ -256,6 +260,8 @@
                     <figure class="cards">
                       <picture>
                         <img
+                        class="lazyloading" 
+                        loading="lazy"
                           sizes="(max-width: 1400px) 100vw, 1400px"
                           width="200"
                           height="75"
@@ -297,6 +303,8 @@
                     <figure class="cards">
                       <picture>
                         <img
+                        class="lazyloading" 
+                        loading="lazy"
                           sizes="(max-width: 1400px) 100vw, 1400px"
                           srcset="
                             Img/coockie_200.webp   200w,
@@ -336,6 +344,8 @@
                     <figure class="cards">
                       <picture>
                         <img
+                        class="lazyloading" 
+                        loading="lazy"
                           sizes="(max-width: 1400px) 100vw, 1400px"
                           width="200"
                           height="75"
@@ -380,7 +390,7 @@
     <footer>
       <!-- <img src="Img/Logo_ArteDulce.jpg" alt="Logo_ArteDulce_Transparent"> -->
       <nav class="footer_section">
-        <img src="Img/Logo_ArteDulce_Transparent.svg" alt="Logo_ArteDulce" />
+        <img class="lazyloading"  loading="lazy" src="Img/Logo_ArteDulce_Transparent.svg" alt="Logo_ArteDulce" />
 
         <div class="wrapper_footer">
           <ul>

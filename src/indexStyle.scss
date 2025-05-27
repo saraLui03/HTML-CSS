@@ -23,6 +23,10 @@ body {
   /* Permite que el icono de hamburguesa no aparezca en la pantalla de escritorio */
 }
 
+main {
+  min-height: 100vh;
+}
+
 .img_wrapper {
   width: 6%;
 }
@@ -170,7 +174,7 @@ li:hover .nav_sublink {
   margin-bottom: 400px;
   /* Empuja los elementos hacia abajo*/
 
-  animation: fadeIn 4s ease-out; //animación los elementos de este apartado aparecen después de 4 segundos.
+  animation: fadeIn 0.8s ease-out; //animación los elementos de este apartado aparecen después de 4 segundos.
 }
 
 @keyframes fadeIn {
@@ -181,6 +185,21 @@ li:hover .nav_sublink {
     opacity: 1;
   }
 }
+
+  @scroll-timeline fade-in-timeline {
+    source: auto;
+    scroll-offsets: start 100%, end 0%;
+    orientation: block;
+  }
+
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn linear both;
+    animation-timeline: fade-in-timeline;
+    animation-range: entry 0% cover 50%;
+  }
+
 
 .value {
   height: 400px;
